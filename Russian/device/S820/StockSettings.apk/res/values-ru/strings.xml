@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="stock_settings">Дополнительные настройки</string>
-    <string name="select_memory">Default write disk</string>
-    <string name="dlg_default_write_disk_change_title">Default write disk settings</string>
-    <string name="dlg_default_write_disk_change_msg">Default write disk has changed, must reboot now!</string>
-    <string name="dlg_default_write_disk0_change_msg">"If you select the SD storage, the applications that installed in USB storage can't be used and the device will reboot, are you sure to change to SD storage?"</string>
-    <string name="dlg_default_write_disk1_change_msg">"If you select the USB storage, the applications that installed in SD storage can't be used and the device will reboot, are you sure to change to USB storage?"</string>
-    <string name="led_settings">LED</string>
+    <string name="select_memory">Память по умолчанию</string>
+    <string name="dlg_default_write_disk_change_title">Настройки памяти по умолчанию</string>
+    <string name="dlg_default_write_disk_change_msg">Память по умолчанию изменена, необходима перезагрузка!</string>
+    <string name="dlg_default_write_disk0_change_msg">"При выборе карты SD, приложения, установленные во внутреннюю память, будут недоступны. Так же, будет необходимо перезагрузить устройство. Уверены, что хотите использовать карту SD по умолчанию ?"</string>
+    <string name="dlg_default_write_disk1_change_msg">"При выборе внутренней памяти, приложения, установленные на карту SD, будут недоступны. Так же, будет необходимо перезагрузить устройство. Уверены, что хотите использовать внутреннюю память по умолчанию ?"</string>
+    <string name="led_settings">Светодиод</string>
 </resources>

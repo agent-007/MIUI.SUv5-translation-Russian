@@ -97,18 +97,19 @@
     <string name="privacy_restore_userdata_summary">Восстановление данных вашего устройства с SD-карты</string>
     <string name="backup_data">Бэкап данных перед сбросом настроек</string>
     <string name="backup_data_description">Резервное копирование контактов и других важных данных перед сбросом настроек телефона</string>
-    <string name="usbsetting_help_content">"1, USB mass storage: phone as a U disk for file operation. 
+    <string name="usbsetting_help_title">Помощь</string>
+    <string name="usbsetting_help_content">"1, USB накопитель: Телефон подключается как внешний диск. 
 
- 2, MTP: Phone as a U disk for file operation, operate file in phone at the same time. When computer OS is XP or below, it needs to install driver. 
+ 2, Медиа-устройство (MTP): Телефон подключается как внешний диск. Доступ к файлам возможен с компьютера и телефона одновременно. Для XP необходимо установить драйвер. 
 
- 3, PTP: Use camera software to translate photos. When computer OS is XP or below, it needs to install driver. 
+ 3, Камера (PTP): Телефон подключается как камера. Нет доступа к файлам, кроме фото. Для XP необходимо установить драйвер. 
 
- 4, USB debug: When connected, manage phone in computer with software such as LeHelper, 91 Helper and so on. 
+ 4, Отладка по USB: Позволяет подключаться к телефону через adb или другие служебные программы. Может использоваться одновременно с любым другим режимом подключения. 
 
- 5, USB tethering: When connected , the computer can access internet through your phone. the U disk can not be installed when connecting."</string>
-    <string name="usbsetting_usbmassstorage_open">Open the USB storage device</string>
-    <string name="usbsetting_usbmassstorage_close">Close the USB storage device</string>
-    <string name="usbsetting_usbmassstorage_wait">Please wait …</string>
+ 5, USB модем: Выход в интернет с компьютера через телефон. В этом режиме невозможно использовать телефон как внешний диск."</string>
+    <string name="usbsetting_usbmassstorage_open">Подключить USB накопитель</string>
+    <string name="usbsetting_usbmassstorage_close">Отключить USB накопитель</string>
+    <string name="usbsetting_usbmassstorage_wait">Ожидание …</string>
     <string name="wifi_switch_settings_title">Wi-Fi binding of location</string>
     <string name="wifi_popup_0">"Binding of connected ap.
 Popup prompt when enter this location."</string>
@@ -207,14 +208,15 @@ Automatically enable when enter this location."</string>
     <string name="stop_all_app">Stop all</string>
     <string name="runningapp_stop_dlg_title">Stop service?</string>
     <string name="runningapp_stop_dlg_text">If you stop these service, some features of your phone may stop working correctly until you power it off and then on again.</string>
-    <string name="tether_title">Personal hotspot</string>
-    <string name="usb_tether">USB tether</string>
-    <string name="auto_popup">Do not pop up</string>
-    <string name="autopop_warning_title">Do not pop up next time?</string>
+    <string name="tether_title">Точка доступа</string>
+    <string name="usb_tether">USB модем</string>
+    <string name="auto_popup">Не показывать</string>
+    <string name="autopop_warning_title">Не показывать в следующий раз?</string>
     <string name="autopop_warning_message">If you uncheck this item, this window will not appear next time when you connect your phone to computer. You can come into this window by click system notification.</string>
+    <string name="autopop_warning_message">При включении данной опции это окно не будет появляться при следующем подключении телефона к компьютеру.</string>
     <string name="notification_settings_title">Notification Settings</string>
     <string name="notification_settings_app_manage">Notification AppManage</string>
-    <string name="personal_hotsport_title">Personal hotspot</string>
+    <string name="personal_hotsport_title">Точка доступа</string>
     <string name="display_smart_standby">Smart Standby</string>
     <string name="smart_standby_ctrl_description">When the screen-off time is coming to open the front camera, bright the screen as detected the phone facing to your face, conversely turn off the screen.</string>
     <string name="swing_lock">Shake Lock</string>

@@ -8,8 +8,8 @@
     <string name="lwt_description_target_status_bar">status_bar</string>
     <string name="dlg_use_ipo_confirm">Быстрая перезагрузка при следующем включении</string>
     <string name="storage_sd_card">Карта SD</string>
-    <string name="storage_usb">Внутренняя карта памяти</string>
-    <string name="storage_phone">Память для приложений</string>
+    <string name="storage_usb">Внешний USB диск</string>
+    <string name="storage_phone">Внутренняя карта памяти</string>
     <string name="storage_external_usb">Внешний USB диск</string>
     <string name="ext_storage_internal_notification_title">Preparing Internal Storage</string>
     <string name="ext_storage_external_notification_title">Preparing External Storage</string>

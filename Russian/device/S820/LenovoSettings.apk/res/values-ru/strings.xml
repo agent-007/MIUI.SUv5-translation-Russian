@@ -212,7 +212,6 @@ Automatically enable when enter this location."</string>
     <string name="usb_tether">USB модем</string>
     <string name="auto_popup">Не показывать</string>
     <string name="autopop_warning_title">Не показывать в следующий раз?</string>
-    <string name="autopop_warning_message">If you uncheck this item, this window will not appear next time when you connect your phone to computer. You can come into this window by click system notification.</string>
     <string name="autopop_warning_message">При включении данной опции это окно не будет появляться при следующем подключении телефона к компьютеру.</string>
     <string name="notification_settings_title">Notification Settings</string>
     <string name="notification_settings_app_manage">Notification AppManage</string>

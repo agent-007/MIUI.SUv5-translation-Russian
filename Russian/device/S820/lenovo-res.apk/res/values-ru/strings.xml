@@ -15,7 +15,7 @@
     <string name="ext_storage_external_notification_title">Preparing External Storage</string>
     <string name="global_actions_toggle_open_airplane_mode_confirm">Open airplane mode.</string>
     <string name="usb_notification_title">Настройки USB подключения</string>
-    <string name="usb_notification_content">Select usb mount mode and adb debug.</string>
+    <string name="usb_notification_content">Настройте подключение и отладку USB.</string>
     <string name="default_string">Default</string>
     <string name="capital_on">ON</string>
     <string name="capital_off">OFF</string>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="stock_settings">Дополнительные настройки</string>
-<<<<<<< HEAD
     <string name="select_memory">Память по умолчанию</string>
     <string name="dlg_default_write_disk_change_title">Настройки памяти по умолчанию</string>
     <string name="dlg_default_write_disk_change_msg">Память по умолчанию изменена, необходима перезагрузка!</string>
@@ -9,7 +8,6 @@
     <string name="dlg_default_write_disk1_change_msg">"При выборе карты SD, приложения, установленные во внутреннюю память, будут недоступны. Так же, будет необходимо перезагрузить устройство. Уверены, что хотите использовать карту SD по умолчанию ?"</string>
     <string name="led_settings">Подсветка</string>
 </resources>
-=======
     <string name="select_memory">Место для записи по-умолчанию</string>
     <string name="dlg_default_write_disk_change_title">Настройки памяти по-умолчанию</string>
     <string name="dlg_default_write_disk_change_msg">Изменения вступят в силу после перезагрузки!</string>
@@ -17,4 +15,3 @@
     <string name="dlg_default_write_disk1_change_msg">"При выборе памяти USB, приложения, которые установлены в SD хранилище отключатся и устройство перезагрузится, выбрать память USB для хранения по умолчанию?"</string>
     <string name="led_settings">LED-индикация</string>
 </resources>
->>>>>>> 8753970f70e82fbaadb5b706bc6e620b1cec3793

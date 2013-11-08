@@ -97,7 +97,6 @@
     <string name="privacy_restore_userdata_summary">Восстановление данных вашего устройства с SD-карты</string>
     <string name="backup_data">Бэкап данных перед сбросом настроек</string>
     <string name="backup_data_description">Резервное копирование контактов и других важных данных перед сбросом настроек телефона</string>
-<<<<<<< HEAD
     <string name="usbsetting_help_title">Помощь</string>
     <string name="usbsetting_help_content">"1, USB накопитель: Телефон подключается как внешний диск. 
 
@@ -164,7 +163,6 @@ Automatically enable when enter this location."</string>
     <string name="unlock_proximity_ctrl_summary">Когда мобильный телефон в кармане, экран автоматически отключается при случайном нажатии на клавишу питания.</string>
     <string name="wallpaperproc">Усиление цвета обоев</string>
     <string name="button_brightness">Кнопка Яркость</string>
->>>>>>> 8753970f70e82fbaadb5b706bc6e620b1cec3793
     <string name="summary_button_brightness">%1$s</string>
     <string name="dialog_title_button_brightness">Кнопка Яркость</string>
     <string name="wizarder">SettingWizard</string>
@@ -222,7 +220,6 @@ Automatically enable when enter this location."</string>
     <string name="character_setings_title">Пользовательские настройки</string>
     <string name="all_setings_title">Все настройки</string>
     <string name="sound_settings_title">Звук</string>
-<<<<<<< HEAD
     <string name="lockscreen_face_detection_ctrl">Face detection unlock set</string>
     <string name="lockscreen_face_detection_ctrl_description">Face detection unlock by camera, the discrimination will be low if not enough light.</string>
     <string name="double_click_home_enabled_title">"Double-click the HOME key active voice "</string>
@@ -253,7 +250,6 @@ Automatically enable when enter this location."</string>
     <string name="notification_settings_app_manage">Notification AppManage</string>
     <string name="personal_hotsport_title">Точка доступа</string>
     <string name="display_smart_standby">Smart Standby</string>
-=======
     <string name="lockscreen_face_detection_ctrl">Разблокировка с помощью распознавания лиц</string>
     <string name="lockscreen_face_detection_ctrl_description">Распознавание лиц для разблокировки с помощью камеры, дискриминация будет низкой, если не хватает света.</string>
     <string name="double_click_home_enabled_title">"Дважды щелкните на клавишу Домой для активации голоса "</string>
@@ -284,7 +280,6 @@ Automatically enable when enter this location."</string>
     <string name="notification_settings_app_manage">Уведомления управления программами</string>
     <string name="personal_hotsport_title">Персональная точка доступа</string>
     <string name="display_smart_standby">Умная блокировка</string>
->>>>>>> 8753970f70e82fbaadb5b706bc6e620b1cec3793
     <string name="smart_standby_ctrl_description">When the screen-off time is coming to open the front camera, bright the screen as detected the phone facing to your face, conversely turn off the screen.</string>
     <string name="swing_lock">Блокировка встряхиванием</string>
     <string name="double_home_active_voice">Кнопка Домой</string>

@@ -97,39 +97,6 @@
     <string name="privacy_restore_userdata_summary">Восстановление данных вашего устройства с SD-карты</string>
     <string name="backup_data">Бэкап данных перед сбросом настроек</string>
     <string name="backup_data_description">Резервное копирование контактов и других важных данных перед сбросом настроек телефона</string>
-    <string name="usbsetting_help_title">Помощь</string>
-    <string name="usbsetting_help_content">"1, USB накопитель: Телефон подключается как внешний диск. 
-
- 2, Медиа-устройство (MTP): Телефон подключается как внешний диск. Доступ к файлам возможен с компьютера и телефона одновременно. Для XP необходимо установить драйвер. 
-
- 3, Камера (PTP): Телефон подключается как камера. Нет доступа к файлам, кроме фото. Для XP необходимо установить драйвер. 
-
- 4, Отладка по USB: Позволяет подключаться к телефону через adb или другие служебные программы. Может использоваться одновременно с любым другим режимом подключения. 
-
- 5, USB модем: Выход в интернет с компьютера через телефон. В этом режиме невозможно использовать телефон как внешний диск."</string>
-    <string name="usbsetting_usbmassstorage_open">Подключить USB накопитель</string>
-    <string name="usbsetting_usbmassstorage_close">Отключить USB накопитель</string>
-    <string name="usbsetting_usbmassstorage_wait">Ожидание …</string>
-    <string name="wifi_switch_settings_title">Wi-Fi binding of location</string>
-    <string name="wifi_popup_0">"Binding of connected ap.
-Popup prompt when enter this location."</string>
-    <string name="wifi_popup_1">"Binding of connected ap.
-Automatically enable when enter this location."</string>
-    <string name="wifi_popup_2">"Don't binding of location"</string>
-    <string name="show_dialog">"Don't remind me"</string>
-    <string name="apn_info">Access point information</string>
-    <string name="data_connection">Data connection</string>
-    <string name="mobile">Data conn.</string>
-    <string name="gemini_sim_info_background_select">Set SIM icon</string>
-    <string name="gemini_sim_color_personal">Personal</string>
-    <string name="gemini_sim_color_work">Work</string>
-    <string name="gemini_sim_color_live">Live</string>
-    <string name="gemini_sim_color_offsite">Offsite</string>
-    <string name="lockscreen_status_expand_ctrl">StatusBar Expanded</string>
-    <string name="unlock_proximity_ctrl">Avoid Power Key Mis-Touch</string>
-    <string name="unlock_proximity_ctrl_summary">when mobile in pocket, automatic turn screen off while power key is mis-touched.</string>
-    <string name="wallpaperproc">WallPaper Color Enhance</string>
-    <string name="button_brightness">Button Brightness</string>
     <string name="usbsetting_help_content">"1, USB Накопитель: Телефон в качестве накопителя для операций с файлами. 
 
  2, MTP: Одновременный просмотр и редактирование файлов с телефона и с ПК. Если версия ОС компьютера XP или ниже, нужно установить драйвера.
@@ -219,36 +186,6 @@ Automatically enable when enter this location."</string>
     <string name="character_setings_title">Пользовательские настройки</string>
     <string name="all_setings_title">Все настройки</string>
     <string name="sound_settings_title">Звук</string>
-    <string name="lockscreen_face_detection_ctrl">Face detection unlock set</string>
-    <string name="lockscreen_face_detection_ctrl_description">Face detection unlock by camera, the discrimination will be low if not enough light.</string>
-    <string name="double_click_home_enabled_title">"Double-click the HOME key active voice "</string>
-    <string name="headset_play_mms_enabled_title">Headset play mms</string>
-    <string name="lockscreen_knock_on_ctrl">Knock light set</string>
-    <string name="data_connect_settings_title">Data connection</string>
-    <string name="lenovo_id_title">Agree to register Lenovo ID</string>
-    <string name="lenovo_id_summery">With phone number as your Lenovo ID, you can enjoy Lenovo related services.</string>
-    <string name="lenovo_system_update">System update</string>
-    <string name="storage_path0">USB Storage</string>
-    <string name="storage_path1">SD storage</string>
-    <string name="dlg_default_write_disk_change_title">Default write disk settings</string>
-    <string name="dlg_default_write_disk_change_msg">Default write disk has changed, must reboot now!</string>
-    <string name="dlg_default_write_disk0_change_msg">"If you select the SD storage, the applications that installed in USB storage can't be used and the device will reboot, are you sure to change to SD storage?"</string>
-    <string name="dlg_default_write_disk1_change_msg">"If you select the USB storage, the applications that installed in SD storage can't be used and the device will reboot, are you sure to change to USB storage?"</string>
-    <string name="location_gps_summary">Setting GPS auxiliary and A-GPS function, to acceler location</string>
-    <string name="uninstall_select">Uninstall selected?</string>
-    <string name="stop_select_app">Stop selected?</string>
-    <string name="stop_all_app">Stop all</string>
-    <string name="runningapp_stop_dlg_title">Stop service?</string>
-    <string name="runningapp_stop_dlg_text">If you stop these service, some features of your phone may stop working correctly until you power it off and then on again.</string>
-    <string name="tether_title">Точка доступа</string>
-    <string name="usb_tether">USB модем</string>
-    <string name="auto_popup">Не показывать</string>
-    <string name="autopop_warning_title">Не показывать в следующий раз?</string>
-    <string name="autopop_warning_message">При включении данной опции это окно не будет появляться при следующем подключении телефона к компьютеру.</string>
-    <string name="notification_settings_title">Notification Settings</string>
-    <string name="notification_settings_app_manage">Notification AppManage</string>
-    <string name="personal_hotsport_title">Точка доступа</string>
-    <string name="display_smart_standby">Smart Standby</string>
     <string name="lockscreen_face_detection_ctrl">Разблокировка с помощью распознавания лиц</string>
     <string name="lockscreen_face_detection_ctrl_description">Распознавание лиц для разблокировки с помощью камеры, дискриминация будет низкой, если не хватает света.</string>
     <string name="double_click_home_enabled_title">"Дважды щелкните на клавишу Домой для активации голоса "</string>

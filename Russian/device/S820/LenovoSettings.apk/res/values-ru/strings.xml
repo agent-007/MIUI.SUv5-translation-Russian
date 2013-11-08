@@ -130,7 +130,6 @@ Automatically enable when enter this location."</string>
     <string name="unlock_proximity_ctrl_summary">when mobile in pocket, automatic turn screen off while power key is mis-touched.</string>
     <string name="wallpaperproc">WallPaper Color Enhance</string>
     <string name="button_brightness">Button Brightness</string>
-=======
     <string name="usbsetting_help_content">"1, USB Накопитель: Телефон в качестве накопителя для операций с файлами. 
 
  2, MTP: Одновременный просмотр и редактирование файлов с телефона и с ПК. Если версия ОС компьютера XP или ниже, нужно установить драйвера.

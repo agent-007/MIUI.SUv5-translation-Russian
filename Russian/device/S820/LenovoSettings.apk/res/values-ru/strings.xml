@@ -97,6 +97,7 @@
     <string name="privacy_restore_userdata_summary">Восстановление данных вашего устройства с SD-карты</string>
     <string name="backup_data">Бэкап данных перед сбросом настроек</string>
     <string name="backup_data_description">Резервное копирование контактов и других важных данных перед сбросом настроек телефона</string>
+    <string name="usbsetting_help_title">Помощь</string>
     <string name="usbsetting_help_content">"1, USB Накопитель: Телефон в качестве накопителя для операций с файлами. 
 
  2, MTP: Одновременный просмотр и редактирование файлов с телефона и с ПК. Если версия ОС компьютера XP или ниже, нужно установить драйвера.

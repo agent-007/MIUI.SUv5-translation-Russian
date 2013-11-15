@@ -100,7 +100,7 @@
     <string name="recharge_status_description">Статус:</string>
     <string name="recharge_actual_price">Цена:</string>
     <string name="recharge_order_original_price">RMB %s</string>
-    <string name="recharge_order_actual_price">\u00A5%s</string>
+    <string name="recharge_order_actual_price">¥%s</string>
     <string name="recharge_order_pay">Контроль</string>
     <string name="recharge_history">История пополнений</string>
     <string name="module_sms_sent">Сообщение отправлено</string>
@@ -125,7 +125,7 @@
     <string name="packages_pay_hint">Отправить бесплатное сообщение</string>
     <string name="packages_pay_success">Сообщение отправлено</string>
     <string name="packages_wait_for_op_reply">Пожалуйста, дождитесь сообщения с подтверждением</string>
-    <string name="packages_select_sim_cards_title">Выберите SIM-карту</string>
+    <string name="packages_select_sim_cards_title">Выберите SIM карту</string>
     <string name="packages_select_sim_cards_summmary">Система будет рекомендовать пакеты трафиков согласно вашему выбору</string>
     <string name="packages_no_package">Нет пакетов</string>
 	<string name="express_inquiry_serial_number_indication">Номер отслеживания</string>

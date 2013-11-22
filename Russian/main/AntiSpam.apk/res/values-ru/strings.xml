@@ -33,7 +33,7 @@
 	<string name="firewall_action">Действия брандмауэра</string>
 	<string name="act_call">Журнал звонков</string>
 	<string name="act_hangup_call">Сразу сбрасывать</string>
-	<string name="act_hangup_call_summary">Отклонённые номера не будут отображаться в журнале вызовов</string>
+	<string name="act_hangup_call_summary">Отклоненные номера не будут отображаться в журнале вызовов</string>
 	<string name="act_mute_call">Без звука</string>
 	<string name="act_mute_call_summary">Не будет уведомлений о звонках, но они будут записываться в журнал вызовов</string>
 	<string name="act_ignore_call">Не фильтровать звонки</string>
@@ -222,7 +222,7 @@
 	<string name="st_bl_setting_group">Настройки черного списка</string>
 	<string name="st_block_all">Блокировать вызовы и сообщения</string>
 	<string name="st_block_mute">Блокировать вызовы и не уведомлять о сообщениях</string>
-	<string name="st_block_private_call_button">Блокировать неопределённые</string>
+	<string name="st_block_private_call_button">Блокировать неопределенные</string>
 	<string name="st_block_title">Блокировать</string>
 	<string name="st_call_group">Вызовы</string>
 	<string name="st_common_setting_group">Настройки фильтров</string>
@@ -248,11 +248,9 @@
 	<string name="tab_call">Вызовы</string>
 	<string name="tab_sms">Сообщения</string>
 	<string name="tab_title">Настройки</string>
-	<string name="toast_keyword_blank">"Необходимо ввести ключевое слово. "</string>
+	<string name="toast_keyword_blank">Необходимо ввести ключевое слово :)</string>
 	<string name="toast_keyword_exist">Ключевое слово сохранено</string>
 	<string name="toast_keyword_invalid">Некорректное ключевое слово</string>
-	<string name="twelve_hour_time_format">a h:mm</string>
-	<string name="twenty_four_hour_time_format">HH:mm</string>
 	<string name="tab_block_log_unKnowNumber">Неизвестный номер</string>
     <string name="st_other_setting_group">Прочие настройки</string>
 </resources>

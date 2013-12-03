@@ -114,7 +114,7 @@
     <string name="wifi_popup_0">"Связывание подключенных точек доступа.
 Всплывающие уведомление при входе в это расположение."</string>
     <string name="wifi_popup_1">"Связывание подключенных точек доступа.
-Автоматически включить при входе в этот расположение."</string>
+Автовключение при входе в этот расположение."</string>
     <string name="wifi_popup_2">"Не связывать расположение"</string>
     <string name="show_dialog">"Не напоминать мнe"</string>
     <string name="apn_info">Информация о Точке доступа</string>
@@ -382,7 +382,7 @@
     <string name="bluetooth_ask_enablement_and_lasting_discovery">Одному из приложений нужно, чтобы ваш телефон был доступен для поиска на других устройствах. Включить Bluetooth?</string>
     <string name="bluetooth_turning_on">Включение Bluetooth…</string>
     <string name="bluetooth_turning_off">Отключение Bluetooth…</string>
-    <string name="bluetooth_auto_connect">Автоматическое подключение</string>
+    <string name="bluetooth_auto_connect">Автоподключение</string>
     <string name="bluetooth_connection_permission_request">Запрос на подключение по каналу Bluetooth</string>
     <string name="bluetooth_pbap_connection_permission_request">Pbap: запрос на подключение</string>
     <string name="bluetooth_ftp_connection_permission_request">FTP: запрос на подключение</string>
@@ -1507,7 +1507,7 @@
     <string name="auto_replace">Автокоррекция</string>
     <string name="auto_replace_summary">Исправлять опечатки</string>
     <string name="auto_caps">Заглавные автоматически</string>
-    <string name="auto_caps_summary">Использовать автоматическую подстановку заглавных букв в начале предложений.</string>
+    <string name="auto_caps_summary">Использовать автоподстановку заглавных букв в начале предложений.</string>
     <string name="auto_punctuate">Автопунктуация</string>
     <string name="hardkeyboard_category">Настройки внешней клавиатуры</string>
     <string name="auto_punctuate_summary">Нажмите дважды клавишу \"Пробел\" для ввода точки</string>
@@ -1640,7 +1640,7 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
 Если устройство имеет несколько пользователей, используя этот ярлык на экране блокировки позволяет временно доступности, пока устройство не будет разблокировано."</string>
     <string name="accessibility_toggle_large_text_preference_title">Большой текст</string>
     <string name="accessibility_toggle_screen_magnification_preference_title">Увеличение изображения</string>
-    <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Автоматическое обновление увеличения экрана</string>
+    <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Автообновление увеличения экрана</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Обновления экрана на увеличение при переходе в приложение</string>
     <string name="accessibility_power_button_ends_call_prerefence_title">Кнопка питания завершает вызов</string>
     <string name="accessibility_toggle_speak_password_preference_title">Произносить пароль</string>
@@ -2224,15 +2224,15 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="do_not_disturb_mode">Тихий режим</string>
     <string name="dndm_notification">Тихий режим активен.</string>
     <string name="dndm_open">Тихий режим</string>
-    <string name="dndm_summary">Когда тихий режим активен звук всех вызовов и уведомлений, полученные в то время когда телефон заблокирован, будет отключен.</string>
+    <string name="dndm_summary">Когда тихий режим активен звук всех вызовов и уведомлений, во время блокировки телефона, будет отключен.</string>
     <string name="dndm_auto_setting_group">Плановый</string>
     <string name="dndm_auto_button_title">Время</string>
     <string name="dndm_auto_time_setting">Настройки времени</string>
     <string name="dndm_auto_time_setting_summary">От %1$s до %2$s</string>
     <string name="dndm_auto_time_turn_on">От</string>
-    <string name="dndm_auto_time_turn_on_title">Автоматическое включение тихого режима</string>
+    <string name="dndm_auto_time_turn_on_title">Автовключение тихого режима</string>
     <string name="dndm_auto_time_turn_off">До</string>
-    <string name="dndm_auto_time_turn_off_title">Автоматическое отключение тихого режима</string>
+    <string name="dndm_auto_time_turn_off_title">Автоотключение тихого режима</string>
     <string name="dndm_dlg_remove_vip">Удалить из списка исключений?</string>
     <string name="dndm_dlg_remove_ok">Удалить</string>
     <string name="dndm_menu_add_vip_custom">Добавить исключение</string>
@@ -2488,7 +2488,7 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="sms_delivered_sound_dialog_title">Выберите звук доставленного SMS</string>
     <string name="haptic_feedback_level">Уровень вибрации</string>
     <string name="privacy_protect_title">Настройка приватности</string>
-    <string name="privacy_mode_enable_title">Защищенный режим</string>
+    <string name="privacy_mode_enable_title">Режим гостя</string>
     <string name="privacy_mode_enable_sum">Скрыть журнал вызовов, сообщения и прочее для защиты приватности.</string>
     <string name="ac_enable_title">Управление доступом</string>
     <string name="ac_set_apps_title">Защита приложений</string>
@@ -2882,8 +2882,8 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="permission_detail_info">Просмотреть все разрешения</string>
     <string name="permission_detail_info_summary">Все разрешения: Безопасности %1$d, Конфиденциальности %2$d, Другие %3$d</string>
     <string name="permission_manage">Управление разрешениями</string>
-    <string name="permission_manage_summary">Управление разрешениями автозапуска, конфиденциальности, безпасности</string>
-    <string name="safe_relative">Связанные с безпасностью</string>
+    <string name="permission_manage_summary">Управление разрешениями автозапуска, конфиденциальности, безопасности</string>
+    <string name="safe_relative">Связанные с безопасностью</string>
     <string name="privacy_relative">Связанные с конфиденциальностью</string>
     <string name="other_relative">Другие разрешения</string>
     <string name="permission_manage_title">%s: разрешения:</string>
@@ -3031,7 +3031,7 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
 \u0009 Ускорение происходит за счет предоставления необходимой информации через альтернативные каналы связи(мобильную сеть). 
 \u0009 Передача данных может вызвать дополнительные расходы за услуги связи."</string>
     <string name="epo_auto_download_title">Автозагрузка</string>
-    <string name="epo_auto_download_summary">Автоматически загружать спутниковые данные позиции</string>
+    <string name="epo_auto_download_summary">Автозагрузка спутниковых данных позиции</string>
     <string name="epo_info_title">Информация EPO</string>
     <string name="epo_download_time_title">Время загрузки</string>
     <string name="epo_download_time_summary">Недоступно</string>
@@ -3185,17 +3185,17 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="gemini_data_connection_progress_message">Пожалуйста, подождите…</string>
     <string name="gemini_3g_modem_switching_message">Переключение SIM карты займет около 10 секунд. Пожалуйста, подождите…</string>
     <string name="gemini_3g_modem_switch_confirm_message">Сеть 3G будет переключена на эту SIM карту. Продолжить? Пожалуйста, убедитесь, что выбранная SIM карта поддерживает сеть 3G.</string>
-    <string name="gemini_3g_disable_warning">3G сеть не доступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Беспроводные сети > Мобильные сети.</string>
-    <string name="gemini_3g_disable_warning_cu">3G сеть не доступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Управление SIM.</string>
+    <string name="gemini_3g_disable_warning">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Беспроводные сети > Мобильные сети.</string>
+    <string name="gemini_3g_disable_warning_cu">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Управление SIM.</string>
     <string name="gemini_wap_push_permission_head">После включения автоматической Push службы, вы можете получать Push сообщения. Обычно авто-Push включают в себя Push уведомления по электронной почте, управление устройствами, о службах, для загрузки услуг и предоставления Push.</string>
     <string name="gemini_wap_push_permission_tail">Принять это соглашение?</string>
     <string name="gemini_wap_push_permission_title">Авто-Push соглашения по техническому обслуживанию</string>
     <string name="gemini_wap_push_permission">Авто-push служба</string>
     <string name="gemini_3g_disable_warning_case0">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
-    <string name="gemini_3g_disable_warning_case1">3G сеть не доступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Беспроводные сети > Мобильные сети. Выбрать эту SIM карту?</string>
-    <string name="gemini_3g_disable_warning_case2">3G сеть не доступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Управление SIM. Выбрать эту SIM карту?</string>
-    <string name="gemini_3g_disable_warning_case3">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Кроме того, 3G сеть не доступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Беспроводные сети > Мобильные сети. Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
-    <string name="gemini_3g_disable_warning_case4">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Кроме того, 3G сеть не доступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Управление SIM. Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
+    <string name="gemini_3g_disable_warning_case1">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Беспроводные сети > Мобильные сети. Выбрать эту SIM карту?</string>
+    <string name="gemini_3g_disable_warning_case2">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Управление SIM. Выбрать эту SIM карту?</string>
+    <string name="gemini_3g_disable_warning_case3">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Кроме того, 3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Беспроводные сети > Мобильные сети. Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
+    <string name="gemini_3g_disable_warning_case4">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Кроме того, 3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Управление SIM. Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
     <string name="gemini_sim_tether_info_title">Контакты SIM</string>
     <string name="gemini_sim_tether_add_record">Добавить</string>
     <string name="gemini_sim_add_title">Контакты</string>

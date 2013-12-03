@@ -259,7 +259,7 @@
     <string name="MSDC_HopSet_Get">GET</string>
     <string name="MSDC_HopSet_Set">SET</string>
     <string name="MSDC_Select">MSDC Выбор</string>
-    <string name="MSDC_Driving">MSDC Вождение</string>
+    <string name="MSDC_Driving">MSDC Управление</string>
     <string name="MSDC_HopSet">MSDC Hopping</string>
     <string name="MSDC_Sd3test">MSDC SD3.0 Тест</string>
     <string name="msdc_sd3test_mode">SD3 Режим</string>
@@ -483,7 +483,7 @@
     <string name="sdcard_error_tip">Пожалуйста, убедитесь, что ката памяти доступна!</string>
     <string name="camera_help_msg">"Имя функции: Камера.
 
-Пункт AF EM используется для установки захвата автоматической фокусировки. 
+Пункт AF EM используется для установки захвата автофокусировки. 
 
 Пункт Режим захвата используется для выбора режима съемки.
 

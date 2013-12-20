@@ -126,13 +126,13 @@
 	<string name="workday_alarm_clock">По рабочим дням</string>
 	<string name="weekend_alarm_clock">По выходным</string>
     <string name="system_time_setting">Настройка</string>
-    <string name="lap_num">Круг</string>
+    <string name="lap_num">круг</string>
     <string name="hour_unit">Ч</string>
     <string name="minute_unit">М</string>
     <string name="alarm_label_hint">Описание будильника</string>
-    <string name="legal_workday_invalidate">Дата истекла (Будильник настроен на работу с ПН по ПТ))</string>
-    <string name="legal_workday_invalidate_message">(Дата истекла. Обновите дату в настройках)</string>
-    <string name="legal_workday_message">(Выключен по праздникам)</string>
+    <string name="legal_workday_invalidate">Данные устарели (Будильник работает с ПН по ПТ)</string>
+    <string name="legal_workday_invalidate_message">" (Необходимо обновление БД)"</string>
+    <string name="legal_workday_message">" (Выключен по праздникам)"</string>
     <string name="holiday_update_title">Для обновления списка рабочих дней необходима связь с интернетом</string>
     <string name="holiday_update_summary">Нажмите для проверки обновления</string> 
     <string name="holiday_data_updating">Обновление…</string>
@@ -144,7 +144,7 @@
     <string name="default_alarm_screen">Установить свою мелодию по умолчанию</string>
     <string name="default_alarm_title">Мелодия по умолчанию</string>
     <string name="alarm_alert">Установить мелодию</string>
-    <string name="alarm_screen">Стиль будильника и мелодия</string>
+    <string name="alarm_screen">Стиль и мелодия</string>
 	<string name="resource_app_name">Ресурсы браузера</string>
 	<string name="resource_price_free">Бесплатно</string>
 	<string name="resource_price_unit">MI Деньги</string>

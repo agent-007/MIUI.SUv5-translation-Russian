@@ -45,7 +45,7 @@
 	<string name="btn_wait_call">Ожидание</string>
 	<string name="btn_wait_call_count">Ожидание (%1$s)</string>
 	<string name="btn_wait_confirm">Ожидание</string>
-	<string name="btn_wait_confirm_count">Ожидание: %1$s）</string>
+	<string name="btn_wait_confirm_count">Ожидание: (%1$s)</string>
 	<string name="button_cancel">Отмена</string>
 	<string name="button_pay">Оплатить</string>
 	<string name="button_recharge">Пополнить</string>
@@ -221,7 +221,7 @@
 	<string name="btn_next">Далее</string>
 	<string name="voucher_error_password">Неверный код</string>
 	<string name="progress_error_recharge_summary">Ошибка платежа. Пожалуйста, попробуйте позже.</string>
-	<string name="progress_error_pay_summary">%1$s MiCredits пополены, но платеж не произведен.</string>
+	<string name="progress_error_pay_summary">%1$s MiCredits пополнены, но платеж не произведен.</string>
 	<string name="security_setting">Настройки безопасности</string>
     <string name="lockscreen_forgot_pattern_button_text"><u>Ключ для напоминания пароля</u></string>
     <string name="lockpattern_recording_intro_header">Создайте ключ разблокировки:</string>
@@ -258,4 +258,27 @@
     <string name="title_password_threshold">Ежедневный лимит = ￥%1$s</string>
     <string name="title_nopassword_dialog">Ежедневный лимит</string>
     <string name="onemore_click_exit">Нажмите еще раз для выхода</string>
+	<string name="button_confirm">ОК</string>
+    <string name="button_next">Далее</string>
+	<string name="detail_consume_account">ID покупки</string>
+	<string name="detail_consume_amount">Количество</string>
+	<string name="detail_consume_name">Продукт</string>
+	<string name="detail_consume_order">ID платежа</string>
+	<string name="detail_consume_time">Время</string>
+	<string name="detail_consume_title">Записи оплаты</string>
+	<string name="detail_giftcard_activity">Подарочные карты</string>
+	<string name="detail_giftcard_expired_time">Дата окончания</string>
+	<string name="detail_giftcard_theme">Покупка тем</string>
+	<string name="detail_giftcard_title">Сведения о карте</string>
+	<string name="detail_giftcard_total">Всего карт</string>
+	<string name="detail_pay_account">ID платежа</string>
+	<string name="detail_recharge_account">ID пополнения</string>
+	<string name="detail_recharge_amount">Сумма</string>
+	<string name="detail_recharge_method">Метод</string>
+	<string name="detail_recharge_order">Номер заказа пополнения</string>
+	<string name="detail_recharge_time">Время</string>
+	<string name="detail_recharge_title">Записи поплнения</string>
+	<string name="scan_prompt_number">Сканировать номер карты %1$s</string>
+	<string name="scan_prompt_password">Сканировать пароль карты %1$s</string>
+	<string name="scan_prompt_voucher">Сканировать пароль MiCredits</string>
 </resources>

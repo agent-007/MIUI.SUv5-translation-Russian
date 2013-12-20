@@ -54,7 +54,7 @@
     <string name="remove_slide">Удалить слайд</string>
     <string name="add_slide">Добавить слайд (после)</string>
 	<string name="context_menu_add_to_browser_favorite">Добавить в избранное браузера</string>
-	<string name="pref_forward_title">Вперед</string>
+	<string name="pref_forward_title">Пересылка</string>
 	<string name="pref_title_card_format">Формат карты</string>
 	<string name="pref_title_fwd_sender_info">Информацию о отправителе</string>
 	<string name="pref_title_miui_card">Отправить через карту MIUI</string>
@@ -95,7 +95,7 @@
     <string name="failed_to_resize_image">Не удалось изменить размер рисунка.</string>
     <string name="resize_image_error_information">Изображение слишком велико для отправки даже после изменения размера.</string>
 	<string name="restore_blocked_message">Восстановить сообщение</string>
-	<string name="overwrite_edited_content">Содержимое будет перезаписано.</string>
+	<string name="overwrite_edited_content">Содержимое будет перезаписано</string>
 	<string name="back_to_message_list">Назад к списку сообщений</string>
     <string name="select_recipient">Выбор получателя</string>
     <string name="send_sms">Отправить</string>
@@ -197,9 +197,9 @@
     <string name="unsticked_conversation">Диалог откреплен</string>
 	<string name="invalid_conversation">Неверный диалог</string>
     <string name="select_conversations">Выбрать диалог</string>
-    <string name="no_conversations">Нет диалогов.</string>
+    <string name="no_conversations">Нет диалогов</string>
     <string name="loading_conversations">Загрузка диалогов…</string>
-    <string name="cannot_get_details">Не удалось загрузить данные.</string>
+    <string name="cannot_get_details">Не удалось загрузить данные</string>
     <string name="message_details_title">Сведения о сообщении</string>
     <string name="message_type_label">"Тип: "</string>
     <string name="text_message">SMS сообщение</string>
@@ -446,8 +446,8 @@
     <string name="add_timing">Время</string>
     <string name="menu_view_original_message">Показать оригинальное сообщение</string>
     <string name="pref_title_system_mms_priority">Установить по умолчанию</string>
-    <string name="pref_summary_on_system_mms_priority">Использовать системное приложение Сообщение для отправки/получения MMS</string>
-    <string name="pref_summary_off_system_mms_priority">Использовать стороннее приложение для отправки/получения MMS</string>
+    <string name="pref_summary_on_system_mms_priority">Использовать системное приложение Сообщение для отправки/получения сообщений</string>
+    <string name="pref_summary_off_system_mms_priority">Использовать стороннее приложение для отправки/получения сообщений</string>
     <string name="title_timed_message_dialog">Время отправки сообщения</string>
     <string name="will_send_at">Будет отправлено в: %s</string>
     <string name="error_timed_msg">Некорректноее время.</string>
@@ -538,7 +538,7 @@
 	<string name="confirm_restore_positive">Восстановить</string>
 	<string name="confirm_restore_title">Восстановить выбранные сообщения?</string>
     <string name="number_add_hint">Введите номер телефона</string>
-    <string name="menu_new_manual">Введите номер телефона</string>
+    <string name="menu_new_manual">Ввести номер телефона вручную</string>
     <string name="menu_pick_from_contact">Выбрать из контактов</string>
     <string name="select_local_audio">Выбор аудио</string>
     <string name="select_local_video">Выбор видео</string>
@@ -554,4 +554,13 @@
     <string name="sp_mark_as_read_title">Отметить как прочитанные</string>
     <string name="sp_mark_as_read">Отметить все сообщения как прочитанные?</string>
     <string name="sp_mark_as_read_progress">Чтение сообщений…</string>
+    <string name="refill_now">Пополнить</string>
+    <string name="toast_feedback_start">Сбор данных журнала…</string>
+    <string name="toast_feedback_finish">Отчет будет отправлен автоматически при подключении к сети Wi-Fi</string>
+    <string name="toast_feedback_max">Вы можете отправлять не более трех отчетов в день</string>
+    <string name="toast_description_required">Невозможно отправить пустое сообщение</string>
+    <string name="pref_key_mx_feedback">Отправить отчет</string>
+    <string name="pref_summary_mx_feedback">Помогите сделать MIUI лучше! \nОтправляйте отчеты о багах разработчикам напрямую.</string>
+    <string name="feedback_description_hint">Введите отчет</string>
+    <string name="feedback_submit">Отправить</string>
 </resources>

@@ -134,7 +134,7 @@
     <string name="new_frequency">Новая частота</string>
     <string name="alert_invalid_frequency">Неверная частота.</string>
     <string name="hint_frequency">Частота: %1$s ~ %2$s</string>
-    <string name="hint_label">Метка</string>
+    <string name="hint_label">Название</string>
     <string name="frequency_mhz_fomart">%s МГц</string>
     <string name="context_menu_title">%s МГц</string>
     <string name="context_menu_item_edit">Редактировать</string>
@@ -180,7 +180,7 @@
     <string name="toast_channel_deleted">Удалено из избранного.</string>
     <string name="toast_channel_deleted1">Удалено из сохраненных каналов.</string>
     <string name="toast_channel_added">Добавлено в избранное.</string>
-    <string name="toast_channel_added1">Дабвлено в сохраненные каналы.</string>
+    <string name="toast_channel_added1">Добавлено в сохраненные каналы.</string>
     <string name="toast_cannot_search">Нет доступных радиостанций.</string>
     <string name="toast_invalid_frequency">Неверная частота для текущего местоположения. Доступные частоты: 87.5-108.0</string>
     <string name="toast_invalid_input">Неверное значение, допустимы значения от 0 до 5.</string>
@@ -240,4 +240,5 @@
     <string name="toast_fm_recorder_internal_error">Ошибка записи</string>
     <string name="toast_fm_recorder_storage_full">Запись невозможна: память заполнена</string>
     <string name="toast_fm_not_stated">FM не указано</string>
+	<string name="record_completed">Запись завершена</string>
 </resources>

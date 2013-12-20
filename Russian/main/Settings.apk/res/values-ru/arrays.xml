@@ -12,7 +12,7 @@
     <string-array name="screen_timeout_entries">
         <item>15 секунд</item>
         <item>30 секунд</item>
-        <item>1 минут</item>
+        <item>1 минуту</item>
         <item>2 минуты</item>
         <item>5 минут</item>
         <item>10 минут</item>
@@ -463,14 +463,19 @@
     <string-array name="screen_key_long_press_action">
         <item>Ничего</item>
         <item>Запустить очистку памяти</item>
-        <item>Запустить Voice Assistant</item>
         <item>Запустить Google Now</item>
         <item>Закрыть текущее приложение</item>
     </string-array>
+    <string-array name="screen_key_long_press_action_value">
+        <item>none</item>
+        <item>recent_panel</item>
+        <item>google_now</item>
+        <item>close_app</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
-        <item>0.5 секунд</item>
+        <item>0.5 секунды</item>
         <item>1 секунда</item>
-        <item>1.5 секунд</item>
+        <item>1.5 секунды</item>
         <item>2 секунды</item>
     </string-array>
     <string-array name="phone_call_noise_suppression_title">
@@ -486,15 +491,6 @@
         <item>1 час</item>
         <item>Бесконечно</item>
 	</string-array>
-	<string-array name="slideshow_time_entryValues">
-        <item>60</item>
-		<item>180</item>
-		<item>300</item>
-        <item>900</item>
-        <item>1800</item>
-        <item>3600</item>
-        <item>-1</item>
-    </string-array>
 <!-- Red Rice -->
     <string-array name="gemini_sim_info_number_display_format_entries">
         <item>Первые 4 цифры</item>
@@ -564,7 +560,7 @@
         <item>8 пользователей</item>
     </string-array>
 	<string-array name="preferred_app_entries">
-        <item>Рабочий стол</item>
+        <item>Лаунчер</item>
         <item>Телефон</item>
         <item>Сообщения</item>
         <item>Браузер</item>

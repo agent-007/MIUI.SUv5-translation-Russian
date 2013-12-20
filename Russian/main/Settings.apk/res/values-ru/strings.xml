@@ -704,6 +704,10 @@
     <string name="wifi_api_test">Wi-Fi API</string>
 	<string name="wifi_auto_connect">Автоподключение</string>
     <string name="android_beam_tips">Убедитесь, что оба устройства соприкасаются, а затем нажмите на содержимое, которое вы хотите отправить.</string>
+    <string name="bt_hci_snoop_log">Журнал Bluetooth HCI</string>
+    <string name="bt_hci_snoop_log_summary">Записывать все пакеты Bluetooth HCI в журнал.</string>
+    <string name="bt_trace_log">Журнал трассировки Bluetooth</string>
+    <string name="bt_trace_log_summary">Включить журнал трассировки Bluetooth</string>
     <string name="wifi_status_test">Статус Wi-Fi</string>
     <string name="wifi_update">Обновить</string>
     <string name="wifi_state_label">Wi-Fi статус:</string>
@@ -779,7 +783,7 @@
     <string name="brightness">Яркость</string>
     <string name="brightness_summary">Настроить яркость экрана</string>
     <string name="screen_timeout">Спящий режим</string>
-    <string name="screen_timeout_summary">После %1$s бездействия</string>
+    <string name="screen_timeout_summary">Спустя %1$s бездействия</string>
     <string name="wallpaper_settings_title">Обои</string>
     <string name="wallpaper_settings_fragment_title">Выбрать обои из</string>
     <string name="screensaver_settings_title">Заставка</string>
@@ -1730,7 +1734,7 @@
     <string name="immediately_destroy_activities_summary">Удалять сводку действий после их завершения</string>
     <string name="app_process_limit_title">Лимит фоновых процессов</string>
     <string name="show_all_anrs">Все ANR</string>
-    <string name="show_all_anrs_summary">Уведомлять о том, что приложение не отвечает</string>
+    <string name="show_all_anrs_summary">Выводить окно \"Приложение не отвечает\" для фоновых приложений</string>
     <string name="data_usage_summary_title">Передача данных</string>
     <string name="data_usage_cycle">Период статистики</string>
     <string name="data_usage_menu_roaming">Интернет-роуминг</string>
@@ -2231,6 +2235,8 @@
     <string name="touch_sensitive_summary">Увеличить чувствительность сенсора для работы с телефоном в перчатках, предотвращение случайного включения экрана в кармане.</string>
     <string name="touch_sensitive_turn_off_title">Отключить режим "в перчатках"</string>
     <string name="touch_sensitive_turn_off_summary">Отключить предотвращение случайного включения экрана в кармане?</string>
+    <string name="touch_sensitive_turn_off_confirm">ОК</string>
+    <string name="touch_sensitive_turn_off_cancel">Отмена</string>
 	<string name="screen_never_timeout_title">Никогда</string>
     <string name="screen_on_proximity_sensor_title">Предотвращение ошибок</string>
     <string name="screen_on_proximity_sensor_summary">Предотвращение случайных нажатий, пока телефон находится в кармане</string>
@@ -2246,7 +2252,7 @@
     <string name="menu_key">Клавиша меню</string>
     <string name="home_key">Клавиша домой</string>
     <string name="back_key">Клавиша назад</string>
-    <string name="screen_key_long_press_timeout">Время удерживания</string>
+    <string name="screen_key_long_press_timeout">Время удержания</string>
     <string name="under_keyguard">Экран блокировки</string>
     <string name="enable_assist_key_long_press">Удерживайте для открытия голосового помошника</string>
     <string name="back_long_press">Клавиша назад</string>
@@ -2473,7 +2479,7 @@
     <string name="dolby_eq_rock">Рок</string>
     <string name="dolby_eq_jazz">Джаз</string>
     <string name="dolby_eq_pop">Поп</string>
-    <string name="dolby_eq_classical">Клаcсика</string>
+    <string name="dolby_eq_classical">Классика</string>
     <string name="dolby_eq_rb">R&amp;B</string>
     <string name="dolby_eq_hiphop">Хип-хоп</string>
     <string name="dolby_eq_blues">Блюз</string>
@@ -2563,15 +2569,15 @@
     <string name="msd_install_retry_mac">"Если компьютер не обнаружит телефон,
 попробуйте следующее:
 "<li>"Введите в поиске
-Android File Transfer,
+Android File Transfer
 и запустите программу."</li>"
 "<li>Отключить и подключить USB кабель заново.</li>"
 "<li>Переустановить драйвера.</li></string>
     <string name="msd_install_retry_linux">"Если компьютер не обнаружит телефон,
 попробуйте следующее:
 1) Используйте команду \"sudo aptitude install mtpfs libfuse-dev libmad0-dev\"
-2) Создайте папку \"mkdir\" /media/mtp
-3) Подтвердите права доступа для пользовательской группы в текущей fuse user group\
+2) Создайте папку \"mkdir /media/mtp\"
+3) Подтвердите права доступа для пользовательской группы в текущей fuse user group
 4) Войдите заново
 5) Дайте доступ устройству mtpfs /media/mtp через Файл менеджер; так же как к локальным папкам
 6) Удалите устройство fusermount -u /media/mtp
@@ -2596,6 +2602,10 @@ Android File Transfer,
 	<string name="device_name_input_error">Не удалось сохранить имя устройства.</string>
 	<string name="dirac_mode_general">Общие</string>
 	<string name="open_wifi_connect_summary">Нажмите для настройки</string>
+    <string name="restrict_background_data_title">Запрет фоновых данных</string>
+    <string name="restrict_background_data_dialog_summary">Приложения не смогут получать данные в фоновом режиме. \nЗапретить передачу данных в фоне?</string>
+    <string name="restrict_background_data_notification_summary">Приложения не смогут подключаться к сети, если установлен запрет на передачу данных в фоновом режиме.</string>
+    <string name="accessibility_screen_magnification_enable">Жесты увеличения</string>
 	<string name="open_wifi_connect_title">Подключение к сети %1$s</string>
     <string name="device_edit_title">Переименовать устройство</string>
     <string name="device_name_input_hint">Введите имя устройства</string>
@@ -2677,6 +2687,8 @@ Android File Transfer,
     <string name="line_breaking_title">Оптимизация текста</string>
     <string name="line_breaking_summary">оптимизировать нарушения пунктов абзаца</string>
     <string name="nfc_se_route_title">Безопасные позиции элемента</string>
+    <string name="se_route_ese">Встроенный безопасный элемент</string>
+    <string name="se_route_uicc">Безопасный элемент на SIM-карте</string>
     <string name="current_use_uicc_se">Использование безопасных элементов на SIM карте</string>
     <string name="current_use_ese">Использоват встроенные защищенные элементы</string>
     <string name="bluetooth_advanced_settings">Дополнительные настройки</string>
@@ -2840,7 +2852,7 @@ Android File Transfer,
     <string name="status_min_number_slot2">MIN(Слот2)</string>
     <string name="status_prl_version_slot2">PRL Version(Слот2)</string>
     <string name="status_meid_number_slot2">MEID(Слот2)</string>
-    <string name="slot_status_summary">Информация о SIM карте</string>
+    <string name="slot_status_summary">Информация о IMEI</string>
     <string name="custom_build_version">Версия сборки</string>
     <string name="software_update">Сервис обновления ПО</string>
     <string name="mota_system_update_summary">Проверить обновления ПО на сервере</string>
@@ -3150,9 +3162,10 @@ Android File Transfer,
     <string name="wifi_priority_changed" formatted="false">Приоритет старое значение =%s, новое значение =%s</string>
     <string name="wifi_configured_ap_list">Сохраненный список точек доступа</string>
     <string name="wifi_priority_label">Приоритет</string>
+    <string name="wifi_available_title">Подключиться к Wi-Fi</string>
     <string name="change_data_conn_title">Изменить тип соединения</string>
     <string name="change_data_conn_message">Сеть %1$s сейчас недоступна, использовать сеть %2$s по умолчанию?</string>
-	<string name="cache_manage_title">Очистка кэша: %1$d, освободит: %2$s</string>
+	<string name="cache_manage_title">Очистка кэша (%1$d) освободит памяти: %2$s</string>
     <string name="cache_list_empty_hints">Нет кэша</string>
     <string name="optimize_title_cache">Кэш</string>
     <string name="optimize_title_ad">Реклама</string>
@@ -3172,18 +3185,18 @@ Android File Transfer,
     <string name="quick_scan_result_summary">Очистка начнется через %d сек.</string>
     <string name="optimize_cache_header_left">Кэш файлов: %d</string>
     <string name="optimize_ad_header_left">Файлов рекламы: %d</string>
-    <string name="optimize_apk_header_left">Приложений apk: %d</string>
+    <string name="optimize_apk_header_left">apk: %d</string>
     <string name="optimize_large_file_header_left">Больших файлов: %d</string>
     <string name="optimize_residual_header_left">Мусор приложений: %d</string>
     <string name="optimize_cache_list_empty_content">Кэш не найден</string>
     <string name="optimize_ad_list_empty_content">Файлов рекламы не найдено</string>
-    <string name="optimize_apk_list_empty_content">Приложений apk не найдено</string>
+    <string name="optimize_apk_list_empty_content">apk не найдено</string>
     <string name="optimize_residual_list_empty_content">Мусора не найдена</string>
     <string name="optimize_tips_title">Помощь</string>
-    <string name="optimize_tips_ad">iconРеклама - это данные, связанные с рекламой, которые распространяются со сторонними приложениями.</string>
-    <string name="optimize_tips_apk">"iconПриложения apk - это файлы, предназначенные только для установки приложений.</string>
-    <string name="optimize_tips_cache">iconКэш - это временные файлы, которые создаются в процессе работы некоторых приложений.</string>
-    <string name="optimize_tips_residual">iconМусор приложений - это оставшиеся файлы, загруженные с помощью приложений, которые были удалены. Будьте внимательны при очистке этих файлов.</string>
+    <string name="optimize_tips_ad">iconРеклама \nДанные, связанные с рекламой, которые распространяются со сторонними приложениями.</string>
+    <string name="optimize_tips_apk">"iconApk \nФайлы, предназначенные только для установки приложений.</string>
+    <string name="optimize_tips_cache">iconКэш \nВременные файлы, которые создаются в процессе работы некоторых приложений.</string>
+    <string name="optimize_tips_residual">iconМусор \nОставшиеся файлы, загруженные с помощью приложений, которые были удалены. Будьте внимательны при очистке этих файлов.</string>
     <string name="quick_scan_apk_list_item_version_hit">Версия: %s</string>
     <string name="apk_status_uninstalled">Не установлено</string>
     <string name="apk_status_installed_old">Старая версия</string>
@@ -3196,9 +3209,9 @@ Android File Transfer,
     <string name="system_cache_title">Системный кэш</string>
     <string name="downloaded_rom_title">Пакеты обновлений</string>
     <string name="optimize_large_file_list_empty_content">Большие файлы не найдены.</string>
-    <string name="deep_clean_tips_cache">iconКэш - некоторые приложения используют кэш для загрузки ресурсов (например, песен, музыки, изображений). Будьте внимательны при очистке этих файлов.</string>
-    <string name="deep_clean_tips_residual">iconМусор приложений - это оставшиеся файлы, загруженные с помощью приложений, которые были удалены. Будьте внимательны при очистке этих файлов.</string>
-    <string name="deep_clean_tips_large_file">iconБольшие файлы - при очистке будут показаны большие файлы, размером более 10 Мб, которые, возможно, вы решите удалить.</string>
+    <string name="deep_clean_tips_cache">iconКэш \nВременные файлы, которые создаются в процессе работы некоторых приложений.</string>
+    <string name="deep_clean_tips_residual">iconМусор \nОставшиеся файлы, загруженные с помощью приложений, которые были удалены. Будьте внимательны при очистке этих файлов.</string>
+    <string name="deep_clean_tips_large_file">iconБольшие файлы \nФайлы, размером более 10 Мб, которые, возможно, вы решите удалить.</string>
     <string name="toast_qucik_scan_list_empty">Очистка не требуется!</string>
     <string name="quick_scan_list_loading_hits">Сканирование…</string>
     <string name="app_uninstall_residual">Очистить мусор приложений?</string>
@@ -3376,7 +3389,7 @@ Android File Transfer,
     <string name="power_autorun_empty">Нет установленных приложений</string>
     <string name="power_autorun_apps_empty">Нет приложений с автозапуском</string>
     <string name="power_perm_logs_empty">Нет журналов</string>
-    <string name="process_manage_title">Очищено процессов: %1$d, освобождено памяти: %2$s</string>
+    <string name="process_manage_title">Очистка процессов (%1$d) освободит памяти: %2$s</string>
     <string name="process_list_empty_hints">Нет кэшированных процессов</string>
     <string name="protection_category_dangerous_title">С риском (%d)</string>
     <string name="protection_category_recommend_title">Для оптимизации (%d)</string>
@@ -3646,7 +3659,7 @@ Android File Transfer,
     <string name="virus_scan_list_item_virus">Вирус</string>
     <string name="virus_scan_list_item_risk">Угроза</string>
     <string name="virus_scan_start">Сканирование вирусов</string>
-    <string name="virus_scan_support">Техническая поддержка: Tencent</string>
+    <string name="virus_scan_support">Поддержка: Tencent</string>
     <string name="virus_scan_last_time">Последняя проверка: %s</string>
     <string name="virus_scan_safe">Угроз нет</string>
     <string name="virus_scan_dangerous">Угроза</string>
@@ -3718,4 +3731,23 @@ Android File Transfer,
     <string name="preferred_app_settings_default">MIUI</string>
     <string name="preferred_app_settings_reset">Сброс настроек</string>
     <string name="preferred_app_settings_reset_message">Использовать все стандартные приложения по умолчанию?</string>
+    <string name="perm_copyright">Поддержка: LBE Privacy Guard</string>
+	<string name="button_text_quick_scan">Сканировать</string>
+	<string name="quick_scan_done_title">Сканирование завершено</string>
+	<string name="optimize_tips_ad_title">Реклама:</string>
+    <string name="optimize_tips_ad_content">Изображения, текстовые файлы и другие данные, связанные с рекламой, которые распространяются со сторонними приложениями.</string>
+    <string name="optimize_tips_apk_title">Apk:</string>
+    <string name="optimize_tips_apk_content">Файлы, предназначенные только для установки приложений.</string>
+    <string name="optimize_tips_cache_title">Кэш:</string>
+    <string name="optimize_tips_cache_content">Временные файлы, которые создаются в процессе работы некоторых приложений.</string>
+    <string name="optimize_tips_residual_title">Мусор:</string>
+    <string name="optimize_tips_residual_content">Оставшиеся файлы, загруженные с помощью приложений, которые были удалены. Будьте внимательны при очистке этих файлов.</string>
+	<string name="deep_clean_tips_cache_title">Кэш:</string>
+    <string name="deep_clean_tips_cache_content">Временные файлы, которые создаются в процессе работы некоторых приложений.</string>
+    <string name="deep_clean_tips_residual_title">Мусор:</string>
+    <string name="deep_clean_tips_residual_content">Оставшиеся файлы, загруженные с помощью приложений, которые были удалены. Будьте внимательны при очистке этих файлов</string>
+    <string name="deep_clean_tips_large_file_title">Большие файлы:</string>
+    <string name="deep_clean_tips_large_file_content">Файлы, размером более 10 Мб, которые, возможно, вы решите удалить.</string>
+	<string name="perm_root_manage_empty">Установленные приложения не имеют ROOT прав</string>
+    <string name="perm_app_manage_empty">Нет отслеживаемых приложений</string>
 </resources>

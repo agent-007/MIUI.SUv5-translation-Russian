@@ -41,7 +41,7 @@
     <string name="act_weather_cycle_low_temp">low</string>
     <string name="act_weather_range_title">Прогноз погоды</string>
     <string name="act_weather_range_select">Выберите город</string>
-    <string name="menu_around">Окресности</string>
+    <string name="menu_around">Окрестности</string>
     <string name="menu_location">Город</string>
     <string name="menu_notification">Уведомления</string>
     <string name="menu_reload">Обновить</string>
@@ -109,9 +109,6 @@
     <string name="first_start_network_toast_text">Доступ к сети для получения информации о погоде.</string>
 	<string name="act_weather_find_city_search_online">найти</string>
     <string name="act_weather_find_city_connect_net">Подключите интернет и повторите попытку</string>
-    <string name="weather_unit">°</string>
-    <string name="weather_unit_middle">~</string>
-    <string name="weather_unit_with_c">℃</string>
     <string name="act_weather_find_city_searching">Поиск…</string>
     <string name="act_init_dialog_finish">Добавлена информация о глобальной погоде</string>
     <string name="loading_weather">Загрузка…</string>

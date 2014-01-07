@@ -165,7 +165,7 @@
 	<string name="pref_privacy_security_title">Личные данные</string>
 	<string name="pref_privacy_clear_cache">Очистить кэш</string>
 	<string name="pref_privacy_clear_cache_summary">Удалить контент и данные, сохраненные браузером</string>
-	<string name="pref_privacy_clear_cache_dlg">Удалить контент и базы данных?</string>
+	<string name="pref_privacy_clear_cache_dlg">Очистить кэш браузера?</string>
 	<string name="pref_privacy_cookies_title">Файлы cookie</string>
 	<string name="pref_privacy_clear_cookies">Удалить cookie</string>
 	<string name="pref_privacy_clear_cookies_summary">Удалить все файлы cookie браузера</string>
@@ -617,4 +617,9 @@
 	<string name="send_to_popular">В популярные</string>
 	<string name="add_quicklink_to_popular">Добавить в популярные сайты</string>
 	<string name="quicklink_saved_before">Ссылка уже добавлена в популярные сайты</string>
+	<string name="pref_content_block_float_popups">Блокировать плавающие окна</string>
+    <string name="miui_search_notification_title">Поиск в браузере</string>
+    <string name="miui_search_notification_message">Нажмите, чтобы открыть.</string>
+    <string name="miui_quicksearch_enable_pref_title">Быстрый поиск</string>
+    <string name="miui_quicksearch_enable_pref_summary">Включить быстрый поиск в панели уведомлений.</string>
 </resources>

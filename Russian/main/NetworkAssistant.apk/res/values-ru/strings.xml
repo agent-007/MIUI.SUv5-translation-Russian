@@ -169,7 +169,6 @@
     <string name="custom_adjust_title">Пользовательские настройки трафика</string>
     <string name="custom_adjust_sender">Номер отправителя</string>
     <string name="custom_adjust_command">Содержание</string>
-    <string name="custom_adjust_receiver">Номер приемника</string>
     <string name="custom_adjust_sender_hint">номер оператора, используемый для приема запроса информации от пользователя</string>
     <string name="custom_adjust_command_hit">содержание сообщения для отправки</string>
     <string name="running_apps_activity_title">Запущенные приложения</string>
@@ -180,7 +179,6 @@
 	<string name="network_control_service_notification_title_nettype_mobile">2G/3G</string>
 	<string name="traffic_bought">Покупка трафика</string>
 	<string name="sync_traffic_no_cmd_detail_custom_config">Для настройки SMS-шаблона перейдите в Настройки > Тарифный план > Информация о трафике.</string>
-	<string name="custom_adjust_title">Настройки синхронизации</string>
     <string name="custom_adjust_receiver">Номер получателя</string>
     <string name="custom_adjust_receiver_hint">Номер телефона, с которого оператор связи отправит пользователю сообщение с информацией о тарифном плане.</string>
     <string name="custom_adjust_recevier_same_with_sender">Номера получателя и отправителя практически идентичны.</string>

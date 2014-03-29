@@ -21,7 +21,7 @@
 	<string name="anti_private_summary">Отклонять и блокировать вызовы без номера</string>
 	<string name="fw_keyword_filter">Ключевое слово</string>
 	<string name="fw_keyword_filter_summary">Фильтрация сообщений с выбранными словами</string>
-	<string name="fw_set_keyword">Настройка ключевых слов</string>
+	<string name="fw_set_keyword">Настройки ключевых слов</string>
 	<string name="fw_notification_settings">Настройки уведомлений</string>
 	<string name="show_firewall_notification">Уведомления о блокировке</string>
 	<string name="show_notification">Показывать уведомления</string>
@@ -136,7 +136,7 @@
 	<string name="turn_on_smart_antispam_title">Определение неизвестных номеров</string>
 	<string name="turn_on_smart_antispam_summary_on">Только по Wi-Fi и 3G</string>
 	<string name="turn_on_smart_antispam_summary_off">Только с локальной базой</string>
-	<string name="bl_block_info" formatted="false">Заблокировано: %d, данные: %d</string>
+	<string name="bl_block_info" formatted="false">Заблокировано вызовов: %d | Сообщений: %d</string>
 	<string name="bl_no_blacklist">Нет заблокированных номеров.</string>
 	<string name="bl_no_block_call">Заблокированные вызовы будут храниться в этом журнале</string>
 	<string name="bl_no_block_sms">Заблокированные сообщения будут храниться в этом журнале</string>
@@ -201,7 +201,7 @@
 	<string name="qm_open">Тихий режим</string>
 	<string name="qm_other_settings">Дополнительно</string>
 	<string name="qm_other_settings_group">Другие</string>
-	<string name="qm_other_settings_info">Настройка входящих вызовов и сообщений во время тихого режима</string>
+	<string name="qm_other_settings_info">Настройки входящих вызовов и сообщений во время тихого режима</string>
 	<string name="qm_repeated_call_setting_title">Неоднократные вызовы</string>
 	<string name="qm_repeated_call_summary_3min">Второй вызов от того же номера в течение трех минут не будет отклонен</string>
 	<string name="qm_repeated_call_summary_none">Игнорировать неоднократные вызовы</string>
@@ -226,7 +226,7 @@
 	<string name="st_block_title">Блокировать</string>
 	<string name="st_call_group">Вызовы</string>
 	<string name="st_common_setting_group">Настройки фильтров</string>
-	<string name="st_filter_keywords_setting_summary1">Сообщения, содержащие ключевые слова, будут заблокированны.</string>
+	<string name="st_filter_keywords_setting_summary1">Сообщения, содержащие ключевые слова, будут заблокированы.</string>
 	<string name="st_filter_keywords_setting_summary2">Вы можете добавить несколько ключевых слов через запятую.</string>
 	<string name="st_advanced_setting_group">Расширенные</string>
     <string name="st_block_unknown_call">Блокир.неизвестные вызовы</string>
@@ -239,15 +239,15 @@
 	<string name="st_mute_all">Не уведомлять о вызовах и сообщениях</string>
 	<string name="st_mute_block">Не уведомлять о вызовах и блокировать сообщения</string>
 	<string name="st_mute_title">Не уведомлять</string>
-	<string name="st_settings_name">Настройки</string>
-    <string name="st_block_setting_group">Настройка черного списка</string>
+	<string name="st_settings_name">Настройки черного списка</string>
+    <string name="st_block_setting_group">Настройки черного списка</string>
     <string name="st_block_setting_title">Вызовы и сообщения</string>
 	<string name="st_sms_group">Сообщения</string>
 	<string name="tab_blacklist">Черный список</string>
 	<string name="tab_block_log">Заблокированные</string>
 	<string name="tab_call">Вызовы</string>
 	<string name="tab_sms">Сообщения</string>
-	<string name="tab_title">Настройки</string>
+	<string name="tab_title">Настройки черного списка</string>
 	<string name="toast_keyword_blank">Необходимо ввести ключевое слово :)</string>
 	<string name="toast_keyword_exist">Ключевое слово сохранено</string>
 	<string name="toast_keyword_invalid">Некорректное ключевое слово</string>

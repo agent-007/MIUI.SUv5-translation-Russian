@@ -56,4 +56,10 @@
     <string name="nowifi_alert_dialog_message">Во время воспроизведения будет идти загрузка, продолжить?</string>
     <string name="nowifi_alert_dialog_continue">Продолжить</string>
     <string name="nowifi_alert_dialog_exit">Выход</string>
+	<string name="menu_item_enable_audio_enhance">Включить усилитель звука</string>
+    <string name="menu_item_disable_audio_enhance">Выключить усилитель звука</string>
+    <string name="toast_message_set_misound">Включите MiSound</string>
+	<string name="menu_item_enable_3d_mode">Включить 3D</string>
+    <string name="menu_item_disable_3d_mode">Отключить 3D</string>
+	<string name="airkan_tips">Нажмите здесь, чтобы воспроизвести видео на ТВ.</string>
 </resources>

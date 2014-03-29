@@ -45,8 +45,8 @@
     <string name="category_favorite">Избранное</string>
     <string name="category_bluetooth">Bluetooth</string>
     <string name="category_log">Лог</string>
-    <string name="operation_rename_message">Имя папки</string>
-    <string name="operation_create_folder_message">Имя папки</string>
+    <string name="operation_rename_message">Введите название</string>
+    <string name="operation_create_folder_message">Название папки</string>
     <string name="operation_delete_confirm_message">Удалить</string>
     <string name="operation_delete_confirm_message_folder">Удаление папки удалит все данные в папке.\n</string>
     <string name="delete_folder">Удалить?</string>
@@ -57,12 +57,12 @@
     <string name="new_folder_name">Новая папка</string>
     <string name="sd_card_size">SD карта: %1$s</string>
     <string name="sd_card_available">Доступно: %1$s</string>
-    <string name="file_info_location">Занято: </string>
-    <string name="file_info_size">Размер: </string>
-    <string name="file_info_modified">Время: </string>
-    <string name="file_info_canread">Часто используемый: </string>
-    <string name="file_info_canwrite">Записанный: </string>
-    <string name="file_info_ishidden">Скрытый: </string>
+    <string name="file_info_location">Расположение:</string>
+    <string name="file_info_size">Размер:</string>
+    <string name="file_info_modified">Время:</string>
+    <string name="file_info_canread">Часто используемый:</string>
+    <string name="file_info_canwrite">Записанный:</string>
+    <string name="file_info_ishidden">Скрытый:</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="operation_deleting">Удаление…</string>
@@ -72,18 +72,18 @@
     <string name="error_info_cant_send_folder">Этот тип файла не поддерживается.</string>
     <string name="fail_to_create_folder">Невозможно создать папку: недостаточно места или папка уже существует.</string>
 	<string name="fail_to_create_folder_unknown">Невозможно создать папку.</string>
-    <string name="fail_to_rename">Папка с таким именем уже существует.</string>
+    <string name="fail_to_rename">Папка/файл с таким именем уже существует.</string>
     <string name="error_filename_too_long">Имя файла слишком длинное.</string>
     <string name="enable_sd_card">Подключите SD карту или отключите режим USB.</string>
     <string name="start_server">Старт</string>
     <string name="stop_server">Стоп</string>
     <string name="notif_server_starting">Запуск FTP сервера…</string>
-    <string name="notif_title">FTP сервер работает.</string>
+    <string name="notif_title">FTP сервер запущен</string>
     <string name="storage_warning">Внешний носитель недоступен.</string>
     <string name="wifi_state">Статус Wi-Fi</string>
     <string name="instruction_pre">Нажмите \"Старт\" для запуска FTP сервера</string>
     <string name="instruction">Введите следующий адрес в FTP клиенте:</string>
-    <string name="no_wifi">Wi-Fi отключен.</string>
+    <string name="no_wifi">Нет Wi-Fi подключений</string>
     <string name="no_wifi_hint">Проверьте настройки подключения.</string>
     <string name="search_title">Поиск</string>
     <string name="search_hint">Поиск</string>
@@ -231,7 +231,7 @@
     <string name="choose_send_type">Выберите метод отправки</string>
     <string name="download_link_completed">"Я открыл доступ к %1$s через KuaiPan. Ссылка: "</string>
     <string name="transing">Отправка</string>
-    <string name="finished">Заверешено</string>
+    <string name="finished">Завершено</string>
     <string name="uploading">Загрузка</string>
     <string name="downloading">Загрузка</string>
     <string name="waiting">Ожидание</string>
@@ -256,7 +256,7 @@
     <string name="storage_internal">Внутренняя память</string>
     <string name="storage_sd_card">SD карта</string>
     <string name="storage_usb">USB накопитель</string>    
-    <string name="bind_account">Синхронизировать существующий аккаунт</string>
+    <string name="bind_account">Синхр. существующий аккаунт</string>
     <string name="bind_account_summary">Синхронизировать аккаунт Kuaipan с аккаунтом Xiaomi.</string>
     <string name="binded_accout_title">Аккаунты синхронизированы</string>
     <string name="binded_accout_description">Аккаунт Xiaomi синхронизирован с аккаунтом KuaiPan. Для входа в KuaiPan Вы можете использовать аккаунт Xiaomi.</string>
@@ -324,4 +324,5 @@
     <string name="folder_exist">Папка уже существует.</string> 
 	<string name="unmount_inform_text">Отключить USB накопитель?</string>
 	<string name="dlg_error_unmount_text">Невозможно отключить USB накопитель.</string>
+	<string name="category_mirouter">Mi-Роутер</string>
 </resources>

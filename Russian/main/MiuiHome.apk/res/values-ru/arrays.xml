@@ -2,7 +2,7 @@
 <resources>
     <string-array name="transformation_entries">
         <item>Классический</item>
-        <item>Классический (Без эффектов)</item>
+        <item>Без эффектов</item>
         <item>Угасание</item>
         <item>Перекатывание</item>
         <item>Страницы</item>
@@ -46,5 +46,11 @@
         <item>Град</item>
         <item>Грязь</item>
         <item>Смог</item>
+    </string-array>
+    <string-array name="editing_mode_entries">
+        <item>Сортировка</item>
+        <item>Виджеты</item>
+        <item>Обои</item>
+        <item>Переходы</item>
     </string-array>
 </resources>

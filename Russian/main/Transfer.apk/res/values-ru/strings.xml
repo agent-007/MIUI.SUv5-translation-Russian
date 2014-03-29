@@ -18,7 +18,7 @@
     <string name="goback">Назад</string>
     <string name="share">Поделиться</string>
     <string name="first_in_tip">Использование Трансфера</string>
-    <string name="welcome_tip1">Обменивайтесь файлами быстро и без затрат на трафик.</string>
+    <string name="welcome_tip1">Обменивайтесь файлами быстро и без затрат на трафик</string>
     <string name="welcome_tip2">Быстрый обмен фото, музыкой, контактами и прочими файлами!</string>
     <string name="voice_assist_match">Быстрое автосопряжение</string>
     <string name="voice_match">Быстрое сопряжение…</string>
@@ -88,7 +88,7 @@
     <string name="history_send">История отправлений</string>
     <string name="history_all">Вся история</string>
     <string name="history">История</string>
-    <string name="no_content">Пусто.</string>
+    <string name="no_content">Пусто</string>
     <string name="editmode_menu_share">Отправить</string>
     <string name="editmode_menu_delete">Удалить</string>
     <string name="operation_send">Отправить</string>
@@ -115,7 +115,7 @@
     <string name="button_next">Далее</string>
     <string name="button_last">Старт</string>
     <string name="share_text">MIUI V5 поддерживает передачу данных не по сети. Не-MIUI V5 пользователи могут загрузить: %1$s</string>
-	<string name="mishare_app_name">Трансфер</string>
+	<string name="mishare_app_name">KuaiPan</string>
 	<string name="apk">Приложение</string>
     <string name="pic">Фото</string>
     <string name="doc">Документ</string>

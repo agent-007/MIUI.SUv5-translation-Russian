@@ -14,7 +14,7 @@
     <string name="bad_authentication">Неправильный логин или пароль.</string>
     <string name="int_phone_user_notice">Если вы находитесь за пределами страны регистрации, указывайте номер в международном формате (например +886xxxxxxxxx)</string>
     <string name="micloud_welcome_skip_login"><u>Пропустить этот шаг</u></string>
-    <string name="micloud_account_name">Аккаунт Xiaomi</string>
+    <string name="micloud_account_name">Xiaomi</string>
     <string name="micloud_use_existing">Существующий</string>
     <string name="micloud_reg_new">Новый</string>
     <string name="micloud_error_empty_username">Введите логин</string>
@@ -101,7 +101,7 @@
     <string name="check_phone_error_title">Ошибка включения синхронизации</string>
     <string name="check_phone_io_error">Сетевая ошибка.</string>
     <string name="other_settings">Прочие настройки</string>
-    <string name="find_device">Найти устройство</string>
+    <string name="find_device">Поиск устройства</string>
     <string name="find_device_check_phone_error_title">Ошибка включения поиска устройств</string>
     <string name="find_device_enabling">Включение…</string>
     <string name="find_device_disabling">Отключение…</string>
@@ -449,7 +449,7 @@
 	<string name="checking_input">Проверка данных…</string>
 	<string name="skip_login_u"><u>Пропустить</u></string>
 	<string name="micloud_data_loading">Загрузка…</string>
-	<string name="micloud_space_full_influence"><u>Что делать, если закончилось место в MiCloud?</u></string>
+	<string name="micloud_space_full_influence"><u>Если закончилось место в MiCloud</u></string>
 	<string name="micloud_title_dspt" formatted="false">Всего: %s \nЗанято: %s | Свободно: %s</string>
 	<string name="micloud_title_full_dspt" formatted="false">Память заполнена!</string>
 	<string name="micloud_user_base_info">Информация пользователя</string>
@@ -475,4 +475,6 @@
 	<string name="micloud_full_influence_dspt">Все фото, видео, заметки и данные приложений будут синхронизированы с MiCloud. \nТаким образом, если вы потеряете или сломаете телефон, ваши данные останутся в безопасности. \nКогда память в MiCloud заполнена, ваши старые данные никуда не пропадут, однако, новые данные не смогут синхронизироваться с MiCloud.\nЧтобы это исправить, необходимо будет удалить ненужные данные из MiCloud.</string>
 	<string name="enable_sync_dspt">Синхронизация отключена</string>
 	<string name="enable_sync">Включить</string>
+	<string name="logout_failed">Ошибка выхода</string>
+	<string name="micloud_upgrade_space">Добавить места</string>
 </resources>

@@ -255,10 +255,10 @@
     <string name="device_info_default">Неизвестно</string>
     <string name="show_dev_on">Теперь вы разработчик!</string>
     <string name="show_dev_already">Не требуется, вы уже разработчик.</string>
-    <string name="header_category_wireless_networks">БЕСПРОВОДНЫЕ СЕТИ</string>
-    <string name="header_category_device">УСТРОЙСТВО</string>
-    <string name="header_category_personal">ПЕРСОНАЛИЗАЦИЯ</string>
-    <string name="header_category_system">СИСТЕМА</string>
+    <string name="header_category_wireless_networks">Беспроводные сети</string>
+    <string name="header_category_device">Устройство</string>
+    <string name="header_category_personal">Персонализация</string>
+    <string name="header_category_system">Система</string>
     <string name="turn_on_radio">Включить радио</string>
     <string name="turn_off_radio">Выключить радио</string>
 	<string name="turn_off_security_lock">Отключить блокировку</string>
@@ -275,20 +275,20 @@
     <string name="radioInfo_service_in">В зоне обслуживания</string>
     <string name="radioInfo_service_out">Вне зоны обслуживания</string>
     <string name="radioInfo_service_emergency">Только экстренные вызовы</string>
-    <string name="radioInfo_service_off">Радио отключено</string>
+    <string name="radioInfo_service_off">Радио выключено</string>
     <string name="radioInfo_roaming_in">Роуминг</string>
     <string name="radioInfo_roaming_not">Нет роуминга</string>
     <string name="radioInfo_phone_idle">Не работает</string>
     <string name="radioInfo_phone_ringing">Звонок</string>
     <string name="radioInfo_phone_offhook">Посылка вызова</string>
-    <string name="radioInfo_data_disconnected">Отключено</string>
+    <string name="radioInfo_data_disconnected">Выключено</string>
     <string name="radioInfo_data_connecting">Подключение</string>
     <string name="radioInfo_data_connected">Подключено</string>
     <string name="radioInfo_data_suspended">Приостановлено</string>
     <string name="radioInfo_unknown">неизвестно</string>
     <string name="radioInfo_display_packets">pkts</string>
     <string name="radioInfo_display_bytes">байт</string>
-    <string name="radioInfo_display_dbm">dBm</string>
+    <string name="radioInfo_display_dbm">дБм</string>
     <string name="radioInfo_display_asu">asu</string>
     <string name="sdcard_unmount">Извлечь USB накопитель</string>
     <string name="sdcard_format">Очистить USB накопитель</string>
@@ -874,8 +874,8 @@
     <string name="wifi_disabled_network_failure">Избегать плохого подключения</string>
     <string name="wifi_disabled_password_failure">Ошибка аутентификации</string>
     <string name="wifi_not_in_range">Недоступна</string>
-    <string name="wifi_wps_available_first_item">Доступна защищенная сеть</string>
-    <string name="wifi_wps_available_second_item">" (доступна защищенная сеть)"</string>
+    <string name="wifi_wps_available_first_item">Доступен WPS</string>
+    <string name="wifi_wps_available_second_item">" (Доступен WPS)"</string>
     <string name="wifi_secured_first_item">Защита %1$s</string>
     <string name="wifi_secured_second_item">, защита %1$s</string>
     <string name="wifi_security_none">Нет</string>
@@ -969,7 +969,7 @@
     <string name="wifi_state_disabling">Отключение</string>
     <string name="wifi_state_disabled">Отключено</string>
     <string name="wifi_state_enabling">Включение</string>
-    <string name="wifi_state_enabled">Отключение</string>
+    <string name="wifi_state_enabled">Выключение</string>
     <string name="wifi_state_unknown">Неизвестно</string>
     <string name="wifi_config_info">Настройка Wi-Fi</string>
     <string name="config_list_label">Настроенные сети</string>
@@ -1363,7 +1363,7 @@
     <string name="install_text">Установить</string>
     <string name="disable_text">Отключить</string>
     <string name="enable_text">Включить</string>
-    <string name="clear_user_data_text">Стереть данные</string>
+    <string name="clear_user_data_text">Очистить данные</string>
     <string name="app_factory_reset">Удалить обновления</string>
     <string name="auto_launch_enable_text">Это приложение по умолчанию используется для некоторых действий.</string>
     <string name="always_allow_bind_appwidgets_text">Вы разрешили этому приложению создавать виджеты и получать доступ к данным.</string>
@@ -1409,8 +1409,8 @@
     <string name="clear_data_failed">Не удалось удалить данные приложения.</string>
     <string name="app_factory_reset_dlg_title">Удалить обновления?</string>
     <string name="app_factory_reset_dlg_text">Все обновления для этого приложения будут удалены.</string>
-    <string name="clear_failed_dlg_title">Стереть данные</string>
-    <string name="clear_failed_dlg_text">Не удалось удалить данные.</string>
+    <string name="clear_failed_dlg_title">Очистить данные</string>
+    <string name="clear_failed_dlg_text">Не удалось удалить данные</string>
     <string name="security_settings_desc">У этого приложения есть доступ к следующей информации на устройстве:</string>
     <string name="security_settings_desc_multi">Для увеличения быстродействия и уменьшения потребления памяти некоторые из разрешиний доступны %1$s, т.к. он запущен одним процессом с %2$s:</string>
     <string name="join_two_items">%1$s и %2$s</string>
@@ -1572,7 +1572,7 @@
     <string name="dev_settings_warning_title">Разрешить настройки для разработчиков?</string>
     <string name="dev_settings_warning_message">Эти настройки только для разработчиков. Они могут вызвать нестабильность работы устройства и приложений.</string>
     <string name="verify_apps_over_usb_title">Проверять приложения через USB</string>
-    <string name="verify_apps_over_usb_summary">Проверять пиложения с помощью ADB/ADT на вредоностное ПО.</string>
+    <string name="verify_apps_over_usb_summary">Проверять приложения с помощью ADB/ADT на вредоносное ПО.</string>
     <string name="enforce_read_external_title">Защита USB накопителя</string>
     <string name="enforce_read_external_summary">Приложения должны посылать запрос для доступа к USB накопителю</string>
     <string name="enforce_read_external_confirm_title">Защитить USB накопитель?</string>
@@ -1603,24 +1603,24 @@
 "<li><ul>"Панорамирование: Перетащите двумя или более пальцами по экрану.
 "<li>Регулировка уровня масштабирования: Зажмите два или более пальца вместе или разведите их в стороны.</li></ul></li>"
 
-Можно также временно увеличить то, что под пальцем тройным нажтием и удерживая. В этом увеличенном виде, можно двигать пальцем, чтобы увидеть различные части экрана. Поднимите палец, чтобы вернуться к предыдущему состоянию.
+Можно также временно увеличить то, что под пальцем тройным нажатием и удерживая. В этом увеличенном виде, можно двигать пальцем, чтобы увидеть различные части экрана. Поднимите палец, чтобы вернуться к предыдущему состоянию.
 
 Заметка: Тройное нажатие для увеличения работает везде кроме клавиатуры и навигации."</string>
     <string name="accessibility_global_gesture_preference_title">Доступный ярлык</string>
-    <string name="accessibility_global_gesture_preference_summary_on">Вкл.</string>
-    <string name="accessibility_global_gesture_preference_summary_off">Выкл.</string>
+    <string name="accessibility_global_gesture_preference_summary_on">Вкл</string>
+    <string name="accessibility_global_gesture_preference_summary_off">Выкл</string>
     <string name="accessibility_global_gesture_preference_description">"Когда эта функция включена, вы можете быстро включить функции для людей с ограниченными возможностями в два этапа:
 
-Step 1: Нажмите и удерживайте кнопку питания, пока не услышите звук или почувствуете вибрацию.
+Шаг 1: Нажмите и удерживайте кнопку питания, пока не услышите звук или почувствуете вибрацию.
 
-Step 2: Нажмите и удерживайте двумя пальцами, пока не услышите звук подтверждения.
+Шаг 2: Нажмите и удерживайте двумя пальцами, пока не услышите звук подтверждения.
 
-Если устройство имеет несколько пользователей, используя этот ярлык на экране блокировки позволяет временно доступности, пока устройство не будет разблокировано."</string>
+Если устройство имеет несколько пользователей, кнопка на экране блокировки позволит получить временный доступ."</string>
     <string name="accessibility_toggle_large_text_preference_title">Большой текст</string>
     <string name="accessibility_toggle_screen_magnification_preference_title">Увеличение изображения</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Автообновление увеличения экрана</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Обновления экрана на увеличение при переходе в приложение</string>
-    <string name="accessibility_power_button_ends_call_prerefence_title">Кнопка питания завершает вызов</string>
+    <string name="accessibility_power_button_ends_call_prerefence_title">Кнопка питания заверш. вызов</string>
     <string name="accessibility_toggle_speak_password_preference_title">Произносить пароль</string>
     <string name="accessibility_long_press_timeout_preference_title">Задержка нажатия и удерживания</string>
     <string name="accessibility_toggle_script_injection_preference_title">Повышение доступности веб-сайтов</string>
@@ -1773,7 +1773,7 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">вкл</string>
     <string name="gadget_state_off">выкл</string>
-    <string name="gadget_state_turning_on">включени</string>
+    <string name="gadget_state_turning_on">включение</string>
     <string name="gadget_state_turning_off">выключение</string>
     <string name="gadget_wifi">Wi-Fi</string>
     <string name="gadget_bluetooth">Bluetooth</string>
@@ -1953,7 +1953,7 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="disable_overlays_summary">Всегда использовать GPU для отрисовки экрана</string>
     <string name="enable_traces_title">Включить трассировку</string>
     <string name="enable_traces_dialog_title">Выбрать трассировки</string>
-    <string name="enable_traces_summary_none">Нет включеной трассировки</string>
+    <string name="enable_traces_summary_none">Трассировки не включены</string>
     <string name="enable_traces_summary_num">%1$d включенных трассировок</string>
     <string name="enable_traces_summary_all">Все трассировки активированы</string>
     <string name="enable_opengl_traces_title">Включить OpenGL трассировку</string>
@@ -1964,12 +1964,12 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="force_hw_ui">Ускорить работу GPU</string>
     <string name="force_hw_ui_summary">Использовать аппаратное ускорение 2D в приложениях</string>
     <string name="force_msaa">Усилить 4x MSAA</string>
-    <string name="force_msaa_summary">Включиьт 4x MSAA в OpenGL ES 2.0 приложениях</string>
+    <string name="force_msaa_summary">Включить 4x MSAA в OpenGL ES 2.0 приложениях</string>
     <string name="track_frame_time">Профиль GPU рендеринга</string>
     <string name="track_frame_time_summary">Вычислять время отрисовки в adb shell dumpsys gfxinfo</string>
     <string name="window_animation_scale_title">Окно: масштаб</string>
     <string name="transition_animation_scale_title">Переход: масштаб</string>
-    <string name="trust_switch_dialog_msg">MIUI не будет спрашивать разрешения на действия этого приложения связанных с безопасностью и конфиденциаьностью.\nДоверять этому приложению?</string>
+    <string name="trust_switch_dialog_msg">MIUI не будет спрашивать разрешения на действия этого приложения связанных с безопасностью и конфиденциальностью.\nДоверять этому приложению?</string>
     <string name="animator_duration_scale_title">Скорость анимации</string>
     <string name="overlay_display_devices_title">Имитация дополнительных дисплеев</string>
 	<string name="antispam_quiet_mode_title">Тихий режим</string>
@@ -1993,8 +1993,8 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="data_usage_empty">В этот период не было трафика от приложений.</string>
     <string name="data_usage_label_foreground">Активный режим</string>
     <string name="data_usage_label_background">Фоновый режим</string>
-    <string name="data_usage_disclaimer">"Измерено телефоном. Учет трафика Вашего оператора связи может отличаться."</string>
-    <string name="data_usage_disable_mobile">Отключить мобильную передачу данных?</string>
+    <string name="data_usage_disclaimer">Измерено телефоном. Учет трафика Вашего оператора связи может отличаться.</string>
+    <string name="data_usage_disable_mobile">Выключить мобильную передачу данных?</string>
     <string name="data_usage_disable_mobile_limit">Установить лимит</string>
     <string name="data_usage_disable_4g_limit">Лимит на 4G трафик</string>
     <string name="data_usage_disable_3g_limit">Лимит на 2G и 3G трафик</string>
@@ -2193,9 +2193,9 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
 	<string name="change_password">Сменить пароль</string>
 	<string name="change_security_lock">Другие способы разблокировки</string>
     <string name="do_not_disturb_mode">Тихий режим</string>
-    <string name="dndm_notification">Тихий режим активен.</string>
+    <string name="dndm_notification">Тихий режим активен</string>
     <string name="dndm_open">Тихий режим</string>
-    <string name="dndm_summary">Когда тихий режим активен звук всех вызовов и уведомлений, во время блокировки телефона, будет отключен.</string>
+    <string name="dndm_summary">Когда тихий режим активен, звук вызовов и уведомлений, во время блокировки телефона, будет отключен.</string>
     <string name="dndm_auto_setting_group">По расписанию</string>
     <string name="dndm_auto_button_title">Время</string>
     <string name="dndm_auto_time_setting">Настройки времени</string>
@@ -2210,7 +2210,7 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="dndm_mute_all">Отключить звук звонков и сообщений</string>
     <string name="dndm_special_call_setting_group">Исключения</string>
     <string name="dndm_vip_call_setting_title">Настройки исключений</string>
-    <string name="dndm_vip_call_summary_none">Нажмите для настройки</string>
+    <string name="dndm_vip_call_summary_none">Нажмите, для настройки</string>
     <string name="dndm_vip_call_summary_custom">Исключений: %d</string>
     <string name="dndm_vip_call_summary_contact">Все контакты</string>
     <string name="dndm_vip_call_button_title">Разрешить вызовы для исключений</string>
@@ -2475,13 +2475,13 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="launcher_settings_title">Лаунчер</string>
     <string name="screen_timeout_title">Спящий режим</string>
     <string name="touch_title">Тач</string>
-    <string name="touch_sensitive_title">Режим \"в перчатках\"</string>
+    <string name="touch_sensitive_title">Режим \"В перчатках\"</string>
     <string name="touch_sensitive_summary">Увеличить чувствительность сенсора для работы с телефоном в перчатках, предотвращение случайного включения экрана в кармане.</string>
-    <string name="touch_sensitive_turn_off_title">Отключить режим "в перчатках"</string>
+    <string name="touch_sensitive_turn_off_title">Отключить режим \"В перчатках\"</string>
     <string name="touch_sensitive_turn_off_summary">Отключить предотвращение случайного включения экрана в кармане?</string>
 	<string name="screen_never_timeout_title">Никогда</string>
     <string name="screen_on_proximity_sensor_title">Предотвращение ошибок</string>
-    <string name="screen_on_proximity_sensor_summary">Предотвращение случайных нажатий, пока телефон находится в кармане</string>
+    <string name="screen_on_proximity_sensor_summary">Предотвращение случайных нажатий пока телефон находится в кармане</string>
     <string name="preferred_launcher_title">Предпочитаемый лаунчер</string>
     <string name="preferred_launcher_warning_title">Замена стандартного лаунчера</string>
     <string name="preferred_launcher_warning_message">Замена стандартного лаунчера может повлечь за собой большее потребление энергии, ухудшение скорости работы, ухудшить безопасность личных данных и т.д.</string>
@@ -2545,7 +2545,7 @@ Step 2: Нажмите и удерживайте двумя пальцами, п
     <string name="nearby_wifi">Доступные сети</string>
     <string name="unlock_set_enter_system">Доступ к системе напрямую</string>
     <string name="unlock_set_enter_system_summary">При включении системный экран блокировки будет проигнорирован</string>
-    <string name="forget_wifi_message">Убирает сеть из автоподключения и, потребуется повторно ввести пароль для подключиться</string>
+    <string name="forget_wifi_message">Удаление сети из автоподключения. Для повторного подключения потребуется ввести пароль.</string>
     <string name="button_disconnect_network">Отключено от сети</string>
     <string name="no_nearby_wifi">Не найдено доступных сетей</string>
     <string name="manually_add_network">Добавить сеть</string>
@@ -2843,7 +2843,7 @@ Android File Transfer
     <string name="device_name">Имя устройства</string>
 	<string name="device_name_input_error">Не удалось сохранить имя устройства.</string>
 	<string name="dirac_mode_general">Общие</string>
-	<string name="open_wifi_connect_summary">Нажмите для настройки</string>
+	<string name="open_wifi_connect_summary">Нажмите, для настройки</string>
 	<string name="open_wifi_connect_title">Подключение к сети %1$s</string>
     <string name="device_edit_title">Переименовать устройство</string>
     <string name="device_name_input_hint">Введите имя устройства</string>
@@ -2870,7 +2870,7 @@ Android File Transfer
     <string name="safe_relative">Связанные с безопасностью</string>
     <string name="privacy_relative">Связанные с конфиденциальностью</string>
     <string name="other_relative">Другие разрешения</string>
-    <string name="permission_manage_title">%s данные разрешения</string>
+    <string name="permission_manage_title">Разрешения %1$s</string>
     <string name="filter_apps_cached">Кэш</string>
     <string name="screen">Экран</string>
     <string name="system">Система</string>
@@ -2922,10 +2922,10 @@ Android File Transfer
     <string name="phone_call_noise_suppression">Подавление шумов при разговоре</string>
 	<string name="sync_wifi_only">Только по Wi-Fi</string>
     <string name="line_breaking_title">Оптимизация текста</string>
-    <string name="line_breaking_summary">оптимизировать нарушения пунктов абзаца</string>
+    <string name="line_breaking_summary">Оптимизировать нарушения пунктов абзаца</string>
     <string name="nfc_se_route_title">Безопасные позиции элемента</string>
     <string name="current_use_uicc_se">Использование безопасных элементов на SIM карте</string>
-    <string name="current_use_ese">Использоват встроенные защищенные элементы</string>
+    <string name="current_use_ese">Использовать встроенные защищенные элементы</string>
     <string name="bluetooth_advanced_settings">Дополнительные настройки</string>
     <string name="bluetooth_profile_ftp">Передача файлов</string>
     <string name="bluetooth_ftp_profile_summary_use_for">Использовать для передачи данных</string>
@@ -3068,7 +3068,7 @@ Android File Transfer
     <string name="outdoor_settings_title">На улице</string>
     <string name="apn_predefine_change_dialog_notice">Сохранить? Изменение APNs по умолчанию может вызывать проблемы с подключением!</string>
     <string name="dialog_apn_disabled">APN отключен!</string>
-    <string name="dialog_apn_disabled_msg">Отключите режим полета для изменения настроек APN.</string>
+    <string name="dialog_apn_disabled_msg">Отключите режим В самолете для изменения настроек APN.</string>
     <string name="sound_category_calls_title">Входящие вызовы</string>
     <string name="voice_call_title">Рингтон голосового вызова</string>
     <string name="voice_call_summary">Задайте стандартный рингтон для входящих голосовых вызовов</string>
@@ -3104,12 +3104,12 @@ Android File Transfer
     <string name="tv_system_title">TV система</string>
     <string name="hdmi_toggler">HDMI</string>
     <string name="hdmi_settings">Настройки HDMI</string>
-    <string name="hdmi_settings_summary">Нажмите для настройки HDMI</string>
+    <string name="hdmi_settings_summary">Нажмите, для настройки HDMI</string>
     <string name="hdmi_audio_toggler">Аудио</string>
     <string name="hdmi_video_toggler">Видео</string>
     <string name="hdmi_video_resolution">Разрешение видео</string>
     <string name="hdmi_notification_title">HDMI кабель подключен</string>
-    <string name="hdmi_notification_content">Нажмите для настройки HDMI</string>
+    <string name="hdmi_notification_content">Нажмите, для настройки HDMI</string>
     <string name="display_settings_scences_title">Сцены</string>
     <string name="mtk_thememanager_title">Тема</string>
     <string name="default_name">Стандартная</string>
@@ -3128,13 +3128,13 @@ Android File Transfer
     <string name="drm_reset_dialog_msg">Эта операция удалит все лицензии на этом устройстве. Продолжить?</string>
     <string name="drm_reset_toast_msg">Все лицензии были успешно удалены.</string>
     <string name="gemini_sim_management_title">Управление SIM картой</string>
-    <string name="gemini_sim_info_title">Инофрмация о SIM карте</string>
+    <string name="gemini_sim_info_title">Информация о SIM карте</string>
     <string name="gemini_default_sim_title">Настройки по умолчанию</string>
     <string name="gemini_general_settings_title">Общие настройки</string>
     <string name="gemini_roaming_settings_title">Роуминг</string>
     <string name="gemini_data_roaming_title">Данные в роуминге</string>
     <string name="gemini_data_roaming_summary">Использование передачи данных в роуминге</string>
-    <string name="gemini_roaming_reminder_title">Показывать напоминание о роуминге</string>
+    <string name="gemini_roaming_reminder_title">Уведомление о роуминге</string>
     <string name="gemini_roaming_reminder_summary">Показывать предложения, основанные на использовании SIM карты</string>
     <string name="gemini_contacts_sim_title">Контакты SIM</string>
     <string name="gemini_contacts_sim_summary">Привязка контактов к конкретной SIM карте</string>
@@ -3153,8 +3153,8 @@ Android File Transfer
     <string name="gemini_sim_mode_progress_activating_message">Активация</string>
     <string name="gemini_sim_mode_progress_deactivating_message">Деактивация</string>
     <string name="gemini_sim_mode_change_failed_message">Операция прервана, ошибка сети.</string>
-    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Режим полета</string>
-    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Телефон войдет в режим полета. Все беспроводные соединения будут отключены. Продолжить?</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Режим В самолете</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Телефон войдет в режим В самолете. Все беспроводные соединения будут отключены. Продолжить?</string>
     <string name="gemini_3g_indic">3G</string>
     <string name="gemini_sim_info_editor_name">Изменить название SIM карты</string>
     <string name="gemini_sim_info_editor_name_dup_title">Ошибка сохранения</string>
@@ -3214,7 +3214,7 @@ Android File Transfer
     <string name="sim_slot">Слот SIM</string>
     <string name="eap_sim_slot_0">Слот SIM1</string>
     <string name="eap_sim_slot_1">Слот SIM2</string>
-    <string name="eap_sim_aka_airplanemode">Отключите режим полета дял использования EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_airplanemode">Отключите режим В самолете для использования EAP-SIM/AKA</string>
     <string name="eap_sim_aka_no_sim_error">Необходимо вставить SIM карту для использования EAP-SIM/AKA</string>
     <string name="eap_sim_aka_no_sim_slot_selected">Необходимо выбрать слот для использования EAP-SIM/AKA</string>
     <string name="wifi_security_wapi_psk">WAPI PSK</string>
@@ -3500,9 +3500,9 @@ Android File Transfer
     <string name="power_chooser_check_box_summary">Выбор режима экономии батареи для продолжительной работы телефона</string>
     <string name="power_chooser_smart_title">Режим по умолчанию</string>
     <string name="power_chooser_smart_summary">Сохранить текущие параметры. Очистка процессов в режиме блокировки.</string>
-    <string name="power_chooser_standby_title">Режим марафон</string>
+    <string name="power_chooser_standby_title">Режим \"Марафон\"</string>
     <string name="power_chooser_standby_summary">Отключение интернет сервисов</string>
-    <string name="power_chooser_sleep_title">Режим сна</string>
+    <string name="power_chooser_sleep_title">Режим \"Сон\"</string>
     <string name="power_chooser_sleep_summary">Отключение всех функций (телефон, сообщения, интернет) за исключением будильника</string>
     <string name="power_chooser_mine_title">Свой режим</string>
     <string name="power_chooser_mine_summary">Сохранение параметров системы по умолчанию</string>
@@ -3547,7 +3547,7 @@ Android File Transfer
     <string name="power_mode_synchronization">Синхронизация</string>
     <string name="power_mode_touch_with_vibration">Вибрация при нажатии</string>
     <string name="power_mode_touch_with_ring">Звук при нажатии</string>
-    <string name="power_mode_airplane_mode">Режим полета</string>
+    <string name="power_mode_airplane_mode">Режим В самолете</string>
     <string name="power_mode_switch_on">Вкл</string>
     <string name="power_mode_switch_off">Выкл</string>
     <string name="power_dialog_cpu_state_title">Использование ЦП</string>
@@ -3634,8 +3634,8 @@ Android File Transfer
     <string name="title_permission_no">Монитор разрешений выключен</string>
     <string name="title_permission_yes">Монитор разрешений включен</string>
     <string name="summary_permission">Защита личных данных от сторонних приложений</string>
-    <string name="title_mms_no">Фильтр сообщенией отключен</string>
-    <string name="title_mms_yes">Фильтр сообщенией включен</string>
+    <string name="title_mms_no">Фильтр сообщений отключен</string>
+    <string name="title_mms_yes">Фильтр сообщений включен</string>
     <string name="summary_mms">Фильтр нежелательных сообщений (продажи, рекламы и т.д.)</string>
     <string name="title_usb_no">USB отладка включена</string>
     <string name="title_usb_yes">USB отладка отключена</string>
@@ -3841,7 +3841,7 @@ Android File Transfer
     <string name="cache_garbage">Кэш</string>
     <string name="optimize_done">Все готово!</string>
     <string name="work_done">Готово</string>
-    <string name="last_checked_date">Требуется проверка. Последнее скаирование было более 30 дней назад.</string>
+    <string name="last_checked_date">Требуется проверка. Последнее сканирование было более 30 дней назад.</string>
     <string name="last_checked_date_mark">%</string>
     <string name="last_checked_date2">Последняя проверка: %d дн. назад</string>
     <string name="just_checked">Все отлично!</string>
@@ -3866,8 +3866,8 @@ Android File Transfer
     <string name="last_check_date_today">"Последняя проверка: сегодня "</string>
     <string name="last_check_date_yesterday">"Последняя проверка: вчера "</string>
     <string name="last_check_never_checked">Требуется проверка (первый раз)</string>
-    <string name="last_check_canceled">Требуется проверка: предыдущая была отменена до ее завершения</string>
-    <string name="last_checked_default">Требуется проверка: последняя проверка была %s дн. назад</string>
+    <string name="last_check_canceled">Предыдущая проверка была отменена до завершения</string>
+    <string name="last_checked_default">Последняя проверка была %s дн. назад</string>
     <string name="examination_score_100">Проверка не требуется</string>
     <string name="examination_score_80_100">Можно оптимизировать некоторые элементы</string>
     <string name="examination_score_80_60">Можно оптимизировать несколько элементов</string>

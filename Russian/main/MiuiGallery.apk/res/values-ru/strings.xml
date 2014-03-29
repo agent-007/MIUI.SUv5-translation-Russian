@@ -32,7 +32,7 @@
     <string name="sepia">Сепия</string>
     <string name="shadow">Тени</string>
     <string name="sharpen">Резкость</string>
-    <string name="straighten">Выравнить</string>
+    <string name="straighten">Выровнить</string>
     <string name="temperature">Тепло</string>
     <string name="tint">Оттенок</string>
     <string name="vignette">Виньетка</string>
@@ -52,7 +52,7 @@
     <string name="app_name">Галерея</string>
     <string name="loading">Загрузка…</string>
     <string name="loading_thumbnail">Загрузка эскизов…</string>
-    <string name="no_thumbnail">Нет эскиза.</string>
+    <string name="no_thumbnail">Нет эскиза</string>
     <string name="crop_save_text">Сохранить</string>
     <string name="multiface_crop_help">Нажмите на лицо, чтобы начать.</string>
     <string name="saving_image">Сохранение изображения…</string>
@@ -174,7 +174,7 @@
     <string name="remove_hidden_album">Отображать альбом</string>
     <string name="photos">Фото</string>
     <string name="tab_lockscreen_text">Экран блок-ки</string>
-    <string name="tab_wallpaper_text">Рабочий стол</string>
+    <string name="tab_wallpaper_text">Домашний экран</string>
     <string name="tab_all_text">Все</string>
     <string name="cloud_gallery_space_full">Облачный альбом переполнен. Удалите ненужные изображения.</string>
 	<string name="share_album_space_full">Этот альбом полон. Удалите ненужные фотографии.</string>
@@ -192,7 +192,7 @@
     <string name="alert_message_open_sync">Сначала Вы должны запустить синхронизацию.</string>
     <string name="open">Включить</string>
     <string name="alert_message_initial_cloud">Фото и скриншоты будут автоматически загружаться в облачное хранилище только при включенном Wi-Fi.</string>
-    <string name="cloud_gallery_no_pictures">Нет изображений.</string>
+    <string name="cloud_gallery_no_pictures">Нет изображений</string>
     <string name="no_network_connected">Отсутствует сетевое подключение.</string>
     <string name="initial_cloud_text">Управление и просмотр фотографий в любое время и в любом месте.</string>
 	<string name="initializing_cloud">Инициализация…</string>
@@ -212,13 +212,13 @@
     <string name="cant_delete_cloud_album">Ошибка удаления: %s системный альбом или создан другим пользователем.</string>
     <string name="cannot_delete_sharer_photo">Невозможно удалить элементов: %s. Файл загружен другим пользователем.</string>
     <string name="click_to_enter_camera">Альбом камеры пуст. Для того, чтобы сделать снимки нажмите на экран</string>
-    <string name="camera_view_none_message">Используйте Камеру для создания фото и видео.</string>
+    <string name="camera_view_none_message">Используйте Камеру для создания фото и видео</string>
 	<string name="can_modified">Разрешить получателю добавлять картинки</string>
-    <string name="none_picture">Нет изображений.</string>
-    <string name="cancel_hint">Операция отменена.</string>
-	<string name="fail_hint">Операция не удалась.</string>
-    <string name="cannot_send_message">Не удается отправить сообщение.</string>
-	<string name="set_screensaver_path_message_if_only_charging">Фото из этого альбома будут отображаться в качестве заставки во время зарядки.</string>
+    <string name="none_picture">Нет изображений</string>
+    <string name="cancel_hint">Операция отменена</string>
+	<string name="fail_hint">Операция не удалась</string>
+    <string name="cannot_send_message">Не удается отправить сообщение</string>
+	<string name="set_screensaver_path_message_if_only_charging">Фото из этого альбома будут отображаться в качестве заставки во время зарядки</string>
 	<string name="has_invalid_recipient">Недопустимых получателей: &lt;%1$s></string>
     <string name="cannot_send_message_reason">Ваше сообщение не имеет допустимых получателей.</string>
     <string name="show_hidden_albums">Скрытые альбомы</string>
@@ -228,7 +228,7 @@
     <string name="sync_album_in_proecess">Альбом синхронизируется с сервером. Подождите…</string>
     <string name="retry_to_create_album">Повтор</string>
     <string name="share_current_album">Поделиться альбомом</string>
-    <string name="cloud_share_guide_title">Теперь можно обмениваться албомами!</string>
+    <string name="cloud_share_guide_title">Теперь можно обмениваться альбомами!</string>
     <string name="cloud_share_guide_message">Вы можете делиться своими облачными\nальбомами с друзьями. Вы и ваши\nдрузья могут смотреть и добавлять\nфото в облачный альбом вместе!</string>
     <string name="cloud_be_shared_guide_title">Этот альбом отправлен от друга</string>
     <string name="cloud_be_shared_guide_message">Вы можете просматривать фотографии ваших друзей и добавлять фотографии в их альбом.</string>
@@ -267,7 +267,7 @@
     <string name="bigscreen_slide_exit">Выход из слайдшоу</string>
 	<string name="bigscreen_slide_fail_cause_loading">Повторите попытку, чтобы начать слайдшоу после загрузки изображения.</string>
     <string name="defalt_local_mobile">Мобильный</string>
-	<string name="there_is_no_image">Нет изображений.</string>
+	<string name="there_is_no_image">Нет изображений</string>
 	<string name="cloudfolder_name_reserved">Имя папки защищено.</string>
     <string name="cloudfolder_contain_invalidate_char">Имя папки не должно содержать \"%s\"</string>
     <string name="cloudfolder_cannot_start_with">Имя папки не может начинаться с \"%s\"</string>
@@ -323,7 +323,7 @@
     <string name="screensaver_path_not_set">ничего не выбрано</string>
     <string name="set_screensaver_path_title">Слайдшоу на заставке</string>
     <string name="set_screensaver_path_message">Фотографии в этом альбоме будут показаны на заставке.</string>
-    <string name="screensaver_no_data">Нет изображений.</string>
+    <string name="screensaver_no_data">Нет изображений</string>
     <string name="slideshow_time_select_title">Выберите время слайдшоу</string>
     <string name="slideshow_time_title">Время слайдшоу</string>
     <string name="rename_failed">Не удалось переименовать.</string>
@@ -361,7 +361,7 @@
 	<string name="error_cloud_not_active">Облачный альбом не используется.</string>
     <string name="no_storage_disable_cloud_albums">Облако недоступно.</string>
     <string name="message_no_delete_access">У вас нет разрешений для удаления %s</string>
-	<string name="message_no_delete_access_with_count">У вас нет разрешений для файлов %dс.</string>
+	<string name="message_no_delete_access_with_count">У вас нет разрешений для файлов %d.</string>
     <string name="fail_init_gallery_db_helper">Невозможно загрузить базу данных Галереи.</string>
     <string name="crop_fail_to_load_image">Не удалось загрузить изображение.</string>
     <string name="error_should_not_select_image">Тип файла не поддерживается.</string>
@@ -482,11 +482,13 @@
     <string name="loading_image">Загрузка изображения…</string>
     <string name="loading_suspend">Загрузка будет продолжена при подключении к сети Wi-Fi.</string>
     <string name="confirm_download_video_title">Загрузка видео</string>
-    <string name="confirm_download_video_message">Для просморта видео необходимо полностью загрузить его. Загрузка будет продолжена при подключении к сети Wi-Fi.</string>
+    <string name="confirm_download_video_message">Для просмотра видео необходимо полностью загрузить его. Загрузка будет продолжена при подключении к сети Wi-Fi.</string>
     <string name="image_download_item_title">Скачать изображение (%s)</string>
-    <string name="folder_holder_file">Необходимо удалить этот файл позже</string>
 	<string name="move">Переместить</string>
 	<string name="internal_sd_card_hm">Память телефона</string>
 	<string name="external_usb_device_hm">USB-накопитель</string>
 	<string name="item_not_sync">Этот файл не был синхронизирован с облаком и не может быть загружен</string>
+    <string name="add_to_cloud_image_limit_exceeded_message">Превышен предел изображений</string>
+    <string name="error_share_with_creator">Вы уже участник этого альбома</string>
+    <string name="folder_holder_file">необходимо удалить этот файл позже</string>
 </resources>

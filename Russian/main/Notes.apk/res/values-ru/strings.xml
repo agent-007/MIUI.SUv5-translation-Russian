@@ -29,11 +29,11 @@
 	<string name="menu_font_size">Размер шрифта</string>
 	<string name="menu_folder_change_name">Переименовать</string>
 	<string name="folder_exist">Папка уже существует, введите другое имя</string>
-	<string name="menu_send_to_desktop">На рабочий стол</string>
+	<string name="menu_send_to_desktop">Ярлык на домашний экран</string>
 	<string name="menu_title_select_folder">Выберите папку</string>
 	<string name="menu_move_parent_folder">Основная папка</string>
 	<string name="menu_rename_folder">Переименовать</string>
-	<string name="info_note_enter_desktop">Заметка добавлена на рабочий стол</string>
+	<string name="info_note_enter_desktop">Заметка добавлена на домашний экран</string>
 	<string name="alert_title_delete">Удаление выбранных заметок</string>
 	<string name="alert_message_delete_notes">Удалить выбранные заметки (%1$s шт.)?</string>
 	<string name="alert_message_delete_folders">Удалить выбранные папки (%1$s шт.)?</string>
@@ -49,7 +49,7 @@
 	<string name="error_sdcard_export">Экспорт не удался, проверьте SD карту</string>
 	<string name="error_note_not_exist">Заметка отсутствует</string>
 	<string name="error_note_empty_for_clock">Заметка пуста. Невозможно установить напоминание</string>
-	<string name="error_note_empty_for_send_to_desktop">Заметка пуста. Невозможно отправить на рабочий стол</string>
+	<string name="error_note_empty_for_send_to_desktop">Заметка пуста. Невозможно отправить на домашний экран</string>
 	<string name="error_widget_exist_for_send_to_desktop">Заметка уже есть на рабочем столе</string>
 	<string name="success_sdcard_export">Экспорт завершен</string>
 	<string name="failed_sdcard_export">Экспорт прерван</string>
@@ -96,9 +96,13 @@
 	<string name="pref_title_data_export">Экспорт данных</string>
 	<string name="pref_title_common">Общие настройки</string>
 	<string name="pref_title_alarm_when_silent">Сигнал в режиме \"Без звука\"</string>
-	<string name="pref_desc_alarm_when_silent">Cигналы будильника будут воспроизводиться даже в режиме без звука</string>
+	<string name="pref_desc_alarm_when_silent">Cигналы будильника будут воспроизводиться даже в режиме \"Без звука\".</string>
 	<string name="pref_title_data_export_to_sdcard">Экспорт заметок на SD карту</string>
 	<string name="dlg_title_confirm_alarm_silent">Отключить звук?</string>
-	<string name="dlg_desc_confirm_alarm_silent">Cигналы будильника не будут воспроизводиться в режиме без звука.</string>
+	<string name="dlg_desc_confirm_alarm_silent">Cигналы будильника не будут воспроизводиться в режиме \"Без звука\".</string>
 	<string name="close">Закрыть</string>
+	<string name="undo">Отменить изменение</string>
+    <string name="redo">Восстановить изменение</string>
+	<string name="permlab_accessNote">Доступ к заметкам</string>
+    <string name="permdesc_accessNote">Вредоносные приложения могут использовать это разрешение для доступа к вашей личной информации.</string>
 </resources>

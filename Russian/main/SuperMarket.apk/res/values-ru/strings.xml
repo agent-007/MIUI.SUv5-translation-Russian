@@ -80,9 +80,9 @@
     <string name="comment_publish">Подтвердить</string>
     <string name="comment_date">%1$02d.%2$02d</string>
     <string name="comment_description">%1$s%2$1s</string>
-    <string name="comment_count">Всего комментариев: %1$s</string>
+    <string name="comment_count">Комментариев: %1$s</string>
     <string name="comment_average_score">Средняя оценка</string>
-    <string name="comment_score_count">Пользователей: %1$s</string>
+    <string name="comment_score_count">Оценок: %1$s</string>
     <string name="comment_name_default">Пользователь %1$s</string>
     <string name="no_average_score">Нет средней оценки</string>
     <string name="all_comments">Все</string>
@@ -124,7 +124,7 @@
     <string name="rank_app_name">%1$s. %2$s</string>
     <string name="category_header">Все %1$s</string>
     <string name="publish_info">%3$s дата %1$s.%2$s</string>
-    <string name="permissions_title">%1$s данные разрешений</string>
+    <string name="permissions_title">Разрешения %1$s</string>
     <string name="permissions_expand_title">Все разрешения</string>
     <string name="version_name">Версия %1$s</string>
     <string name="search_other_market">Похожие</string>

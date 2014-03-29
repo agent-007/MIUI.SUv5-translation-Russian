@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_encryption_desc">In order to proceed with your device upgrade you must decrypt previously encrypted apps. Click continue to unlock your credential store and decrypt your apps. Once complete you will have the option to enable full device encryption.</string>
-    <string name="app_encryption_button_text">Continue</string>
+    <string name="app_encryption_button_text">Продолжить</string>
     <string name="nfc_toggle_disabled">IT has disabled NFC</string>
     <string name="cantDeactivate3LM">3LM deactivation is not allowed</string>
     <string name="sd_encrypt_dialog">Encrypting your SD card will erase any data. Non-encrypted cards will be mounted read-only. Press OK to enable encryption or choose Skip to mount as read-only.</string>
@@ -19,7 +19,7 @@
 Однако при включении экрана могут прийти скопившиеся push-данные"</string>
     <string name="smart_network_guide_check">Не показывать снова</string>
     <string name="text_empty">Сообщение пусто</string>
-    <string name="tap_to_configure">Нажмите для настройки</string>
+    <string name="tap_to_configure">Нажмите, для настройки</string>
     <string name="adv_vpn">Продвинутый IPsec VPN</string>
     <string name="basic_vpn_settings">Стандартный VPN</string>
     <string name="font_change_popup">Огромный шрифт будет применяться только в некоторых приложениях. В остальных будет использоваться крупный шрифт</string>
@@ -50,9 +50,9 @@
     <string name="no">Нет</string>
     <string name="create">Создать</string>
     <string name="device_info_default">Неизвестно</string>
-    <string name="header_category_wireless_networks">Сеть</string>
+    <string name="header_category_wireless_networks">Беспроводные сети</string>
     <string name="header_category_device">Устройство</string>
-    <string name="header_category_personal">Личное</string>
+    <string name="header_category_personal">Персонализация</string>
     <string name="header_category_system">Система</string>
     <string name="turn_on_radio">Включить радио</string>
     <string name="turn_off_radio">Выключить радио</string>
@@ -83,6 +83,10 @@
     <string name="radioInfo_unknown">Неизвестно</string>
     <string name="sdcard_unmount">Отключить карту памяти</string>
     <string name="sdcard_format">Форматировать карту SD</string>
+    <string name="clear_font_title">Повышение четкости</string>
+    <string name="clear_font_summary">Повышение четкости текста</string>
+    <string name="increase_legibility_popup">Повышение четкости будет включено. Это позволит повысить четкость текста</string>
+    <string name="increase_legibility_popup_title">Включить повышение четкости</string>
     <string name="small_font">Небольшой</string>
     <string name="medium_font">Средняя</string>
     <string name="large_font">Крупный</string>
@@ -381,7 +385,7 @@
     <string name="unlock_set_unlock_mode_pattern">Защищено с помощью рисунка</string>
     <string name="unlock_set_unlock_mode_pin">Защищено с помощью PIN-кода</string>
     <string name="unlock_set_unlock_mode_password">Защищено с помощью пароля</string>
-    <string name="unlock_disable_lock_title">Откл. блокировку экрана</string>
+    <string name="unlock_disable_lock_title">Выкл. блокировку экрана</string>
     <string name="unlock_disable_lock_pattern_summary">Удалить рисунок</string>
     <string name="unlock_disable_lock_pin_summary">Удалить PIN-код</string>
     <string name="unlock_disable_lock_password_summary">Удалить пароль</string>
@@ -618,8 +622,8 @@
     <string name="wifi_disabled_help">Сеть не используется из-за плохого подключения. Отключите этот параметр в меню \"Параметры\" > \"Wi-Fi\" > \"Дополнительно\"</string>
     <string name="wifi_disabled_password_failure">Произошла ошибка проверки подлинности</string>
     <string name="wifi_not_in_range">Вне диапазона</string>
-    <string name="wifi_wps_available_first_item">Доступна защищенная сеть</string>
-    <string name="wifi_wps_available_second_item">Доступна защищенная сеть</string>
+    <string name="wifi_wps_available_first_item">Доступен WPS</string>
+    <string name="wifi_wps_available_second_item">" (Доступен WPS)"</string>
     <string name="wifi_secured_first_item">Защищено %s</string>
     <string name="wifi_secured_second_item">, защита %1$s</string>
     <string name="wifi_secured">Защищенная</string>
@@ -1102,7 +1106,7 @@ Wi-Fi и Мобильная точка доступа не могут быть �
     <string name="sim_perso_bad_passwd">Incorrect Password!</string>
     <string name="sim_perso_enter_old">Old password (4 digits)</string>
     <string name="sim_perso_pw_change_succeeded">Password changed successfully</string>
-    <string name="sim_perso_checking">USIM Personalization checking...</string>
+    <string name="sim_perso_checking">USIM Personalization checking…</string>
     <string name="sim_no_pin_entered">No PIN entered. Please input your PIN password.</string>
     <string name="sim_wrong_pin_length">"PIN should be at least 4
 and at most 8 digits"</string>
@@ -2018,14 +2022,14 @@ or visit CS center."</string>
     <string name="data_usage_disclaimer">Измеряется на устройстве. Оператор может учитывать данные об использовании по-другому</string>
     <string name="btn_tmo">Обновление службы данных</string>
     <string name="data_usage_disclaimer_tmo">Нажмите на ссылку ниже, чтобы изучить варианты обновления для вашего тарифного плана</string>
-    <string name="data_usage_disable_mobile">Отключить мобильное подключение для передачи данных?</string>
+    <string name="data_usage_disable_mobile">Выключить мобильное подключение для передачи данных?</string>
     <string name="data_usage_disable_mobile_limit">Ограничение мобильных данных</string>
     <string name="data_usage_disable_4g_limit">Настроить ограничение данных 4G</string>
     <string name="data_usage_disable_3g_limit">Настроить огранич. трафика 2G/3G</string>
     <string name="data_usage_disable_wifi_limit">Настроить огранич. трафика Wi-Fi</string>
-    <string name="data_usage_disable_mobile_warning_skt">При отключении мобильной сети использование служб MMS и 3G будет ограничено. Отключить?</string>
-    <string name="data_usage_disable_mobile_warning_ktt">При отключении мобильной сети использование служб MMS и 3G будет ограничено. Отключить?</string>
-    <string name="data_usage_disable_mobile_warning_lgt">При отключении мобильной сети использование служб MMS и 3G будет ограничено. Отключить?</string>
+    <string name="data_usage_disable_mobile_warning_skt">При отключении мобильной сети использование служб MMS и 3G будет ограничено. Выключить?</string>
+    <string name="data_usage_disable_mobile_warning_ktt">При отключении мобильной сети использование служб MMS и 3G будет ограничено. Выключить?</string>
+    <string name="data_usage_disable_mobile_warning_lgt">При отключении мобильной сети использование служб MMS и 3G будет ограничено. Выключить?</string>
     <string name="data_usage_enable_confirmation">Проверьте подключение к сети</string>
     <string name="data_usage_enable_mobile_warning_skt">За подключение к мобильной сети может взиматься дополнительная плата (в зависимости от вашего тарифного плана). Продолжить?</string>
     <string name="data_usage_enable_mobile_warning_ktt">За подключение к мобильной сети может взиматься дополнительная плата (в зависимости от вашего тарифного плана). Продолжить?</string>
@@ -2071,7 +2075,7 @@ or visit CS center."</string>
     <string name="data_usage_sweep_limit"><font size="21">^1</font> <font size="9">^2</font>"
 "<font size="12">ограничение</font></string>
     <string name="data_usage_uninstalled_apps">Удаленные приложения</string>
-    <string name="data_usage_received_sent">Получено: %1$s, отправлено: %2$s</string>
+    <string name="data_usage_received_sent" formatted="false">Получено: %1$s, отправлено: %2$s</string>
     <string name="data_usage_total_during_range">%2$s: использовано около %1$s</string>
     <string name="data_usage_total_during_range_mobile">%2$s: использовано около %1$s (измерено устройством). Оператор может учитывать данные об использовании по-другому</string>
     <string name="data_usage_metered_title">Мобильные точки доступа</string>
@@ -2174,6 +2178,8 @@ or visit CS center."</string>
     <string name="vibration_intensity">Интенсивность вибрации</string>
     <string name="display_saving">Автонастр. яркости экрана</string>
     <string name="display_saving_mode_summary">Для экономии энергии настройте параметры экрана в соответствии с результатами анализа изображений</string>
+    <string name="auto_adjust_touch_title">High touch sensitivity</string>
+    <string name="auto_adjust_touch_summary">"Increase the screen's sensitivity so you can touch it while wearing gloves"</string>
     <string name="software_update_settings_list_item_title">Обновление ПО</string>
     <string name="samsung_update">Обновить</string>
     <string name="update_summary">Проверка обновлений</string>
@@ -2968,7 +2974,7 @@ or visit CS center."</string>
 звук"</string>
     <string name="accessibility_widget_assistive_light">Фонарик</string>
     <string name="accessibility_widget_negative_color">Негатив</string>
-    <string name="accessibility_widget_turnoff_allsounds">Откл. все звуки</string>
+    <string name="accessibility_widget_turnoff_allsounds">Выкл. все звуки</string>
     <string name="accessibility_widget_led_notification">LED уведомления</string>
     <string name="accessibility_widget_zoom">Масштаб</string>
     <string name="accessibility_power_button_ends_call_summary">Нажмите клавишу питания, чтобы завершить вызов при включенном экране. Экран не погаснет</string>
@@ -3199,7 +3205,7 @@ Activating this setting disables any other use of USB except data transfering."<
     <string name="wifi_search_networks">Поиск сети…</string>
     <string name="voice_input_control_widget_title">Голосовые команды</string>
     <string name="rcs_settings_title">Службы joyn</string>
-    <string name="all_sound_off">Откл. все звуки</string>
+    <string name="all_sound_off">Выкл. все звуки</string>
     <string name="all_sound_off_summary">Отключить все звуки, включая голос вызываемого абонента</string>
     <string name="waiting_tone_volume_title">Сигнал ожидания вызова</string>
     <string name="lgt_service_global_auto_roaming">Международный роуминг</string>
@@ -3208,7 +3214,7 @@ Activating this setting disables any other use of USB except data transfering."<
     <string name="home_settings_header">Изменить главный экран</string>
     <string name="home_settings_message">%s будет применена на вашем рабочем столе</string>
     <string name="home_settings_customer_mode">DoCoMo палитра UI</string>
-    <string name="home_settings_customer_mode_summary">Сделайте свой телефон более простым и интуитивно понятным используя рабочий стол DoCoMo</string>
+    <string name="home_settings_customer_mode_summary">Сделайте свой телефон более простым и интуитивно понятным используя лаунчер DoCoMo</string>
     <string name="home_settings_basic_mode">TouchWiz Основной режим</string>
     <string name="home_settings_basic_mode_summary">Наслаждайтесь новыми впечатлениями с новейшими функциями Galaxy</string>
     <string name="home_settings_easy_mode">TouchWiz Простой режим</string>
@@ -3746,8 +3752,8 @@ Enable data roaming?"</string>
     <string name="wimax_status_initializing">Initializing</string>
     <string name="wimax_status_scanning">Scanning</string>
     <string name="wimax_status_ready">Ready</string>
-    <string name="wimax_connecting_summary">Connecting...</string>
-    <string name="wimax_obtaining_ip">Obtaining IP address...</string>
+    <string name="wimax_connecting_summary">Connecting…</string>
+    <string name="wimax_obtaining_ip">Obtaining IP address…</string>
     <string name="wimax_status_active">Active</string>
     <string name="wimax_status_idle">Idle</string>
     <string name="wimax_status_disconnecting">Disconnecting</string>

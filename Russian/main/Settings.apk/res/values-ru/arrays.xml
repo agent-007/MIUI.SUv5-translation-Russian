@@ -53,10 +53,10 @@
         <item>Очень быстрая</item>
     </string-array>
     <string-array name="change_security_lock_picker">
-		<item>Фейс-контроль</item>
+		<item>Фейсконтроль</item>
 		<item>Графический ключ</item>
-		<item>Цифровой пароль</item>
-		<item>Смешанный пароль</item>
+		<item>PIN</item>
+		<item>Пароль</item>
     </string-array>
     <string-array name="tts_pitch_entries">
         <item>Очень низкий</item>
@@ -123,14 +123,14 @@
         <item>Отличный</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
-        <item>Всегда</item>
-        <item>Только при питании от сети</item>
-        <item>Никогда (увеличивает расход трафика)</item>
+        <item>Включен</item>
+        <item>Включен при зарядке</item>
+        <item>Выключен</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries_wifi_only">
-        <item>Всегда</item>
-        <item>Только при питании от сети</item>
-        <item>Никогда</item>
+        <item>Включен</item>
+        <item>Включен при зарядке</item>
+        <item>Выключен</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Авто</item>
@@ -289,6 +289,11 @@
         <item>Средний</item>
         <item>Слабый</item>
     </string-array>
+	<string-array name="media_feedback_level_entries">
+        <item>Сильный</item>
+        <item>Средний</item>
+        <item>Слабый</item>
+    </string-array>
     <string-array name="battery_indicator_style_entries">
         <item>Графический</item>
         <item>Проценты</item>
@@ -416,7 +421,7 @@
     </string-array>
     <string-array name="msd_pc_system_install_start_summary">
         <item>Для Windows XP и ранних версий,\nдрайвер следует установить вручную</item>
-        <item>Для Windows Vista или версий новее,\nмузыкальный проигрыватель Mi2 появится на вашем компьютере автоматически</item>
+        <item>Для Windows Vista или версий новее,\nмузыкальный проигрыватель появится на вашем компьютере автоматически</item>
         <item>Для Mac OS X,\nдрайвер следует установить вручную</item>
         <item></item>
     </string-array>
@@ -427,14 +432,14 @@
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_install_step_2_summary">
-        <item>2) Память телефона Mi2 автоматически появится на вашем компьютере. Теперь вы можете переносить файлы</item>
+        <item>2) Память телефона автоматически появится на вашем компьютере. Теперь вы можете переносить файлы</item>
         <item></item>
         <item>Компьютер автоматически откроет и прочитает данные телефона. Теперь вы можете перемещать файлы</item>
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_install_finish_summary">
-        <item>Если вы установите этот драйвер память телефона Mi2 появится на компьютере</item>
-        <item>В Windows Vista или версях новее, музыкальный проигрыватель Mi2 появится на вашем компьютере автоматически</item>
+        <item>Если вы установите этот драйвер, память телефона появится на компьютере</item>
+        <item>В Windows Vista или версях новее, музыкальный проигрыватель появится на вашем компьютере автоматически</item>
         <item>Если вы установите этот драйвер компьютер автоматически откроет и прочитает память телефона</item>
         <item></item>
     </string-array>
@@ -564,4 +569,104 @@
         <item>Музыка</item>
         <item>Почта</item>
     </string-array>
+	<string-array name="app_ops_categories">
+        <item>Местоположение</item>
+        <item>Личность</item>
+        <item>Обмен сообщениями</item>
+        <item>Устройство</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>неточное определение местоположения</item>
+        <item>точное определение местоположения</item>
+        <item>GPS</item>
+        <item>вибрация</item>
+        <item>чтение контактов</item>
+        <item>изменение контактов</item>
+        <item>чтение журнала вызовов</item>
+        <item>изменение журнала вызовов</item>
+        <item>чтение календаря</item>
+        <item>изменение календаря</item>
+        <item>сканирование wi-fi</item>
+        <item>уведомления</item>
+        <item>поиск сети</item>
+        <item>вызов</item>
+        <item>чтение сообщений</item>
+        <item>изменение сообщений</item>
+        <item>получение сообщений</item>
+        <item>получение экстренных сообщений</item>
+        <item>получение MMS</item>
+        <item>получение WAP push</item>
+        <item>отправка сообщений</item>
+        <item>чтение ICC SMS</item>
+        <item>изменение ICC SMS</item>
+        <item>изменение настроек</item>
+        <item>рисунок сверху</item>
+        <item>доступ к уведомлениям</item>
+        <item>камера</item>
+        <item>запись аудио</item>
+        <item>воспроизведение аудио</item>
+        <item>чтение буфера обмена</item>
+        <item>изменение буфера обмена</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Местоположение</item>
+        <item>Местоположение</item>
+        <item>Местоположение</item>
+        <item>Вибрация</item>
+        <item>Чтение контактов</item>
+        <item>Изменение контактов</item>
+        <item>Чтение журнала вызовов</item>
+        <item>Изменение журнала вызовов</item>
+        <item>Чтение календаря</item>
+        <item>Изменение календаря</item>
+        <item>Местоположение</item>
+        <item>Уведомления</item>
+        <item>Местоположение</item>
+        <item>Вызов</item>
+        <item>Получение SMS/MMS</item>
+        <item>Отправка SMS/MMS</item>
+        <item>Получение SMS/MMS</item>
+        <item>Получение SMS/MMS</item>
+        <item>Получение SMS/MMS</item>
+        <item>Получение SMS/MMS</item>
+        <item>Отправка SMS/MMS</item>
+        <item>Получение SMS/MMS</item>
+        <item>Отправка SMS/MMS</item>
+        <item>Изменение настроек</item>
+        <item>Рисунок сверху</item>
+        <item>Уведомления</item>
+        <item>Камера</item>
+        <item>Запись аудио</item>
+        <item>Воспроизведение аудио</item>
+        <item>Чтение буфера</item>
+        <item>Изменение буфера</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ничего</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Call stack on glGetError</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ничего</item>
+        <item>720x480 mdpi</item>
+        <item>1280x720 tvdpi</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1280x720 tvdpi и 1920x1080 xhdpi</item>
+    </string-array>
+	<string-array name="miracast_policies">
+        <item>Небольшая задержка</item>
+        <item>По умолчанию</item>
+        <item>Лучшее качество</item>
+    </string-array>
+	<string-array name="show_non_rect_clip_entries">
+        <item>Отключено</item>
+        <item>Подсвечивать фон синим цветом</item>
+        <item>Протестированные команды отображаются красным цветом</item>
+    </string-array>
+	<string-array name="network_speed_slow_summary" >
+		<item>Медленная скорость из-за большой нагрузки</item>
+		<item>Медленная скорость из-за слабого сигнала</item>
+		<item>Перемещение…</item>
+	</string-array>
 </resources>

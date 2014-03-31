@@ -4063,4 +4063,5 @@ Android File Transfer
     <string name="Settings_title_anti_virus">Настройки антивируса</string>
 	<string name="dialog_title_load_cleanup_engine_error">Ошибка очистки</string>
     <string name="dialog_msg_load_cleanup_engine_error">Движок очистки был поврежден. Повторите попытку.</string>
+    <string name="schedule_power_on_off_settings_title">Расписание вкл./выкл. питания</string>
 </resources>

@@ -838,7 +838,7 @@
 	<string name="call_record_notification_message_sd_unmounted_miui">Запись остановлена: SD карта недоступна</string>
 	<string name="call_record_notification_title_error_miui">Ошибка записи</string>
 	<string name="call_record_notification_title_miui">Запись завершена</string>
-	<string name="call_record_sample_prefix_miui">Запись вызовов</string>
+	<string name="call_record_sample_prefix_miui">Записи вызовов</string>
 	<string name="call_record_notification_message_start_failed">Устройство записи занято другим приложением</string>
 	<string name="call_record_sd_error_miui">Ошибка доступа к SD карте</string>
 	<string name="call_record_sd_space_low_miui">На SD недостаточно места</string>
@@ -1265,16 +1265,16 @@
     <string name="pref_camera_coloreffect_entry_negative">Негатив</string>
     <string name="pref_camera_coloreffect_entry_solarize">Передержка</string>
     <string name="pref_camera_coloreffect_entry_posterize">Пастеризация</string>
-    <string name="pref_camera_coloreffect_entry_whiteboard">Белая Доска</string>
-    <string name="pref_camera_coloreffect_entry_blackboard">Черная Доска</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Белая доска</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Черная доска</string>
     <string name="pref_camera_coloreffect_entry_aqua">Вода</string>
     <string name="pref_camera_coloreffect_entry_pastel">Пастель</string>
-    <string name="pref_camera_coloreffect_entry_mosaic">Мозайка</string>
-    <string name="pref_camera_coloreffect_entry_redtint">Красный Фильтр</string>
-    <string name="pref_camera_coloreffect_entry_bluetint">Синий Фильтр</string>
-    <string name="pref_camera_coloreffect_entry_greentint">Зеленый Фильтр</string>
-    <string name="pref_camera_coloreffect_entry_sepiablue">Сепия Синяя</string>
-    <string name="pref_camera_coloreffect_entry_sepiagreen">Сепия Зеленая</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Мозаика</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Красный фильтр</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Синий фильтр</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Зеленый фильтр</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Синяя сепия</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Зеленая сепия</string>
     <string name="vt_peer_camera_open">Удаленная камера открыта</string>
     <string name="vt_peer_camera_close">Удаленная камера закрыта</string>
     <string name="vt_recorder_start">Начать запись</string>
@@ -1569,7 +1569,7 @@
     <string name="oldman_reject_call_button_text">отклонить</string>
     <string name="oldman_end_call_button_text">отбой</string>
     <string name="oldman_dialpad_button_text">клавиатура</string>
-	<string name="call_record_error_access">Невозможно записывать вызовы в режиме гостя</string>
+	<string name="call_record_error_access">Невозможно записывать вызовы в режиме \"Гость\"</string>
 	<string name="call_waiting_tone_stop_summary">" (нажмите клавишу изменения громкости, чтобы остановить воспроизведение)."</string>
 	<string name="tty_mode_entries_full_miui">Полнофункциональный</string>
 	<string name="tty_mode_entries_hco_miui">С возможностью слышать собеседника</string>
@@ -1639,4 +1639,7 @@
 	<string name="set_sub_global_activate_failed">Ошибка активации</string>
     <string name="set_sub_global_deactivate_failed">Ошибка деактивации</string>
 	<string name="set_sub_not_supported_phone_in_call">Невозможно активировать или деактивировать подписки во время вызова</string>
+	<string name="open_miui">Открыть</string>
+	<string name="callwait_open_hint">Услуга \"Ожидание вызова\" предоставляется оператором, если вы получаете ошибку кода MMI, обратитесь к вашему оператору для выяснения подробностей.</string>
+	<string name="preferred_network_type_pref_entries_4g_preferred_miui">Предпочтительно 4G</string>
 </resources>

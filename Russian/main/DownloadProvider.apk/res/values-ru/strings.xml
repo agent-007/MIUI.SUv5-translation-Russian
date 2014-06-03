@@ -35,7 +35,7 @@
     <string name="button_queue_for_wifi">В очередь</string>
     <string name="button_cancel_download">Отмена</string>
     <string name="button_start_now">Начать сейчас</string>
-    <string name="dialog_insufficient_space_on_external">Не хватает памяти на внешнем устройстве</string>
+    <string name="dialog_insufficient_space_on_external">Не хватает памяти на внешнем накопителе</string>
     <string name="dialog_insufficient_space_on_cache">Не хватает места во внутренней памяти</string>
     <string name="auto_restart_under_wifi">Wi-Fi автоматически загрузит данный файл</string>
     <string name="download_remaining">Осталось: %s</string>
@@ -45,4 +45,5 @@
     <string name="download_running">В процессе</string>
     <string name="download_error">Не завершено</string>
     <string name="download_running_percent">В процессе, %d%%</string>
+	<string name="task_already_exist">Задача уже существует</string>
 </resources>

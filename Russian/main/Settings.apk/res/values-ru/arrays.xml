@@ -48,9 +48,13 @@
     <string-array name="tts_rate_entries">
         <item>Очень медленная</item>
         <item>Медленная</item>
-        <item>Обычная</item>
+        <item>Нормальная</item>
         <item>Быстрая</item>
+        <item>Быстрее</item>
         <item>Очень быстрая</item>
+        <item>Скоростная</item>
+        <item>Очень скорост ная</item>
+        <item>Самая быстрая</item>
     </string-array>
     <string-array name="change_security_lock_picker">
 		<item>Фейсконтроль</item>
@@ -669,4 +673,57 @@
 		<item>Медленная скорость из-за слабого сигнала</item>
 		<item>Перемещение…</item>
 	</string-array>
+    <string-array name="mvno_type_entries">
+        <item>Ничего</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Очень маленький</item>
+        <item>Маленький</item>
+        <item>Средний</item>
+        <item>Большой</item>
+        <item>Очень большой</item>
+    </string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+        <item>Нет</item>
+        <item>Контур</item>
+        <item>Тень</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Белый на черном</item>
+        <item>Черный на белом</item>
+        <item>Желтый на черном</item>
+        <item>Желтый на синем</item>
+        <item>Пользовательский</item>
+    </string-array>
+	<string-array name="select_runtime_summaries">
+        <item>Использовать Dalvik</item>
+        <item>Использовать ART</item>
+        <item>Использовать отладочный ART</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Отключить</item>
+        <item>На экране в виде полос</item>
+        <item>На экране в виде линий</item>
+        <item>В adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Выключено</item>
+        <item>Показывать область отрисовывания</item>
+        <item>Показывать область Deuteranomaly</item>
+        <item>Показывать контур отрисовывания</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Спрашивать</item>
+        <item>Запретить</item>
+        <item>Разрешить</item>
+    </string-array>
+	<string-array name="ram_states">
+        <item>нормальный</item>
+        <item>умеренный</item>
+        <item>низкий</item>
+        <item>критический</item>
+    </string-array>
 </resources>

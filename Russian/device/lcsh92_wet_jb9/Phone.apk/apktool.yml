@@ -4,7 +4,7 @@ isFrameworkApk: false
 usesFramework:
   ids:
   - 1
-  - 8
+  - 6
 sdkInfo:
   minSdkVersion: '17'
   targetSdkVersion: '17'

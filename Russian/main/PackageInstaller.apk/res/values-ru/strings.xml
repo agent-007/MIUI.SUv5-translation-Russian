@@ -101,4 +101,12 @@
     <string name="button_continue_install">Продолжить установку</string>
     <string name="button_install_lastest">Скачать и установить новую версию</string>
     <string name="button_install_official">Скачать и установить официальную версию</string>
+    <string name="warn_title">Приложение может быть опасно</string>
+    <string name="warn_message">Приложение может представлять вред вашим личным данным, влиять на расходы на мобильный интернет и т.д.</string>
+    <string name="progress_verifying">Проверка безопасности…</string>
+    <string name="update_title">%1$s: новая версия</string>
+    <string name="update_time">%1$s %2$s дата:%3$s версия:%4$s</string>
+    <string name="update_log_default">Нет обновлений</string>
+    <string name="permission_warn_title">Установка приложений из неофициальных источников может причинить вред вашему устройству</string>
+    <string name="permission_warn_hint">Приложения получит разрешения:</string>
 </resources>

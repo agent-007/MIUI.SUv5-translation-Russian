@@ -4418,5 +4418,6 @@ Android File Transfer
 	<string name="priority_storage_title">Настройки памяти</string>
 	<string name="high_performance_notif_summary">Высокое потребление батареи</string>
 	<string name="high_performance_notif_title">Режим производительности активен</string>
-	<string name="high_performance_title">Используйте режим производительности для более комфортного игрового процесса и получения лучшего результата в бенчмарках</string>
+	<string name="high_performance_title">Используйте режим производительности для более комфортного игрового процесса</string>
+	<string name="enable_mobile_data_when_opening_hotspot">Включить мобильный интернет?</string>
 </resources>

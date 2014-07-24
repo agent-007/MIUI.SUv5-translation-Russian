@@ -52,4 +52,8 @@
         <item>"по Wi-Fi трафику "</item>
         <item>"по сжатым данным "</item>
     </string-array>
+	<string-array name="mi_service_traffic_type">
+		<item>"Мобильный трафик "</item>
+		<item>"Трафик Wi-Fi "</item>
+	</string-array>
 </resources>

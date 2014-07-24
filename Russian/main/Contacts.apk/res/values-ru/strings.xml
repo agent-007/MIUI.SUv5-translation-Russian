@@ -1191,4 +1191,5 @@
     <string name="menu_show_outgoing_only">Показывать только исходящие</string>
     <string name="menu_show_incoming_only">Показывать только входящие</string>
     <string name="menu_show_missed_only">Показывать только пропущенные</string>
+	<string name="yellowpage_navigation_search_result_average_price">В среднем %d RMB</string>
 </resources>

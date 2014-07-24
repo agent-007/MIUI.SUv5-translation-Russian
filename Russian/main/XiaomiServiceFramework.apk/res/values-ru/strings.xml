@@ -556,4 +556,6 @@
     <string name="sync_sub_1_sms_1_intl_sms">Для активации SIM карт будет отправлена одна международная и одна обычная SMS.</string>
 	<string name="error_device_id">Не удается получить IMEI</string>
 	<string name="bank_cards">Банковские карты</string>
+	<string name="error_login">Ошибка авторизации</string>
+	<string name="relogin_notice">Необходимо авторизироваться повторно</string>
 </resources>

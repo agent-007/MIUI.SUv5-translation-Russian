@@ -583,4 +583,9 @@
 	<string name="send_hms_editor_hints">Облачное сообщение</string>
 	<string name="view_hms_details">Информация</string>
 	<string name="xiaomi_service_number">Сервисный номер</string>
+	<string name="file_create_time">Время создания:</string>
+	<string name="file_size">Размер:</string>
+	<string name="file_title">Имя:</string>
+	<string name="file_width_height">Размер:</string>
+	<string name="share_img">Отправить</string>
 </resources>

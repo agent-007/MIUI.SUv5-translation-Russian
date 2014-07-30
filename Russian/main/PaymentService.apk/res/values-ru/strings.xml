@@ -28,7 +28,7 @@
 	<string name="bankcall_saved_card_info">%1$s - заканчивается %2$s</string>
 	<string name="bankcall_xiaomi_company">Корпорация Xiaomi</string>
 	<string name="btn_back">Назад</string>
-	<string name="btn_call">Позвонить</string>
+	<string name="btn_call">Вызов</string>
 	<string name="btn_count_down_auto">Запрос через %1$s сек.</string>
 	<string name="btn_delete_record">Удалить запись</string>
 	<string name="btn_mili_center_recharge">Пополнить баланс</string>
@@ -39,7 +39,7 @@
 	<string name="btn_query">Узнать сейчас</string>
 	<string name="btn_recharge_confirm">Подтвердить покупку</string>
 	<string name="btn_recharge_large">Пополнить</string>
-	<string name="btn_recharge_other">Другие методы пополнения</string>
+	<string name="btn_recharge_other">Другие способы пополнения</string>
 	<string name="btn_recharge_success">Пополнение завершено</string>
 	<string name="btn_recharge_success_quick">Пополнение завершено</string>
 	<string name="btn_wait_call">Ожидание</string>
@@ -97,7 +97,7 @@
 	<string name="msg_send_no_sim_error">Ошибка отправки сообщения, попробуйте еще раз.</string>
 	<string name="msg_send_send_fail_error">Ошибка отправки сообщения</string>
 	<string name="msg_telecom_order_denom">%1s yuan не читает данные мобильной сети</string>
-	<string name="msg_telecom_order_denom_label">Amout:</string>
+	<string name="msg_telecom_order_denom_label">Кол-во:</string>
 	<string name="msg_telecom_order_goods">%1s MiCredit</string>
 	<string name="msg_telecom_order_goods_label">Описание:</string>
 	<string name="msg_telecom_picker_hint_1_1">После подтверждения покупки, ваш телефон будет</string>
@@ -169,8 +169,8 @@
 	<string name="recharge_grid_edit_limit">%1$s~%2$sRMB</string>
 	<string name="recharge_grid_error_denomination">Введите корректный размер пополнения (%1$d~%2$dRMB)</string>
 	<string name="recharge_grid_picker_hint">Выбор суммы пополнения MiCredit</string>
-	<string name="recharge_group_favorite">Используемые методы пополнения</string>
-	<string name="recharge_group_others">Другие методы пополнения</string>
+	<string name="recharge_group_favorite">Используемые способы пополнения</string>
+	<string name="recharge_group_others">Другие способы пополнения</string>
 	<string name="recharge_notification">Пополнение MiCredit: %1$s</string>
 	<string name="recharge_message_title">Пополнение через SMS</string>
 	<string name="recharge_other">Отмена</string>
@@ -188,15 +188,15 @@
 	<string name="voucher_edit_hint">Пароль</string>
 	<string name="voucher_edit_limit">только цифры</string>
 	<string name="micloud_summary">Войдите в аккаунт Xiaomi чтобы синхронизировать контакты, фото, сообщения и другие данные с облачным сервисом.</string>
-	<string name="micloud_is_what">Что такое MiCloud?</string>
+	<string name="micloud_is_what">Что такое Mi Cloud?</string>
 	<string name="micloud_more">Подробнее</string>
 	<string name="micloud_intro_01_part_01">Экономить на затратах SMS</string>
 	<string name="micloud_intro_01_part_02">MIUI позволяет Вам отправлять бесплатные сообщения через интернет.</string>
 	<string name="micloud_intro_02_part_01">Не нужно делать ничего лишнего.</string>
-	<string name="micloud_intro_02_part_02">MiCloud синхронизация данных с облачным сервисом.</string>
+	<string name="micloud_intro_02_part_02">Mi Cloud синхронизация данных с облачным сервисом.</string>
 	<string name="micloud_intro_03_part_01">Безопасность в использовании</string>
 	<string name="micloud_intro_03_part_02">Управление данными на \"i.xiaomi.com\".</string>
-	<string name="micloud_dspt">MiCloud управление данными в любое время!</string>
+	<string name="micloud_dspt">Mi Cloud управление данными в любое время!</string>
 	<string name="label_balance">"Баланс: "</string>
 	<string name="button_call">Вызов</string>
 	<string name="balance_payment">%1$s MiCredit</string>
@@ -271,7 +271,7 @@
 	<string name="detail_pay_account">ID платежа</string>
 	<string name="detail_recharge_account">ID пополнения</string>
 	<string name="detail_recharge_amount">Сумма</string>
-	<string name="detail_recharge_method">Метод</string>
+	<string name="detail_recharge_method">Способ</string>
 	<string name="detail_recharge_order">Номер заказа пополнения</string>
 	<string name="detail_recharge_time">Время</string>
 	<string name="detail_recharge_title">Записи поплнения</string>
@@ -294,4 +294,11 @@
 	<string name="giftcard_expire_notification_prime_title">Срок действия вашей подарочной карты истек</string>
 	<string name="giftcard_expire_notification_sub_title">Срок действия подарочной карты MiCredits: %1$s</string>
 	<string name="btn_agree">ОК</string>
+    <string name="payment_actionbar_title">Подтвердить</string>
+    <string name="balance_title">Баланс</string>
+    <string name="recharge_group_familiar">Обычные способы</string>
+    <string name="pc_pay_login">Войдите</string>
+    <string name="mibi_license_net_prompt_title">Разрешить приложению доступ к сети?</string>
+    <string name="mibi_license_net_prompt_message">Для использования Mi Credit требуется доступ к сети.</string>
+    <string name="mibi_license_checkbox_prompt">Запомнить</string>
 </resources>

@@ -49,7 +49,7 @@
     <string name="notification_volume_title_lenovo">Уведомление</string>
     <string name="sound_category_feedback_title_lenovo">Система</string>
     <string name="all_volume_title_lenovo">Громкость</string>
-    <string name="sound_category_calls_title_lenovo">Входящие звонки</string>
+    <string name="sound_category_calls_title_lenovo">Входящие вызовы</string>
     <string name="vibrate_title_lenovo">Вибрация</string>
     <string name="phone_vibrate_summary_lenovo">Вибрировать при входящих звонках и SMS</string>
     <string name="dtmf_tone_enable_title_lenovo">Звук клавиш</string>
@@ -489,7 +489,7 @@
     <string name="sdcard_settings_unmounted_status">Теперь можно извлечь USB накопитель</string>
     <string name="sdcard_settings_bad_removal_status">USB накопитель был извлечен во время использования!</string>
     <string name="sdcard_settings_used_bytes_label">Использовано байт:</string>
-    <string name="sdcard_settings_scanning_status">Поиск мультимедиа на USB накопителе…</string>
+    <string name="sdcard_settings_scanning_status">Поиск медиа на USB накопителе…</string>
     <string name="sdcard_settings_read_only_status">USB накопитель установлен только для чтения</string>
     <string name="skip_label">Пропустить</string>
     <string name="next_label">Далее</string>
@@ -573,13 +573,13 @@
     <string name="crypt_keeper_enter_password">Введите пароль</string>
     <string name="crypt_keeper_failed_title">Сбой шифрования</string>
     <string name="crypt_keeper_failed_summary">Данные на вашем телефоне больше недоступны из-за прерванного шифрования.\n\nЧтобы продолжить использовать устройство, выполните сброс до заводских настроек. После этого вы сможете восстановить все данные, для которых в аккаунте Google были созданы резервные копии.</string>
-    <string name="crypt_keeper_switch_input_method">Изменить метод ввода</string>
+    <string name="crypt_keeper_switch_input_method">Изменить способ ввода</string>
     <string name="lock_settings_picker_title">Тип блокировки</string>
     <string name="backup_lock_settings_picker_title">Доп. способ блокировки</string>
     <string name="unlock_set_unlock_launch_picker_title">Блокировка экрана</string>
     <string name="unlock_set_unlock_launch_picker_change_title">Изменение блок. экрана</string>
     <string name="unlock_set_unlock_launch_picker_change_summary">Смена или отключение графического ключа, PIN кода и пароля</string>
-    <string name="unlock_set_unlock_launch_picker_enable_summary">Выбрать метод блокировки экрана</string>
+    <string name="unlock_set_unlock_launch_picker_enable_summary">Выбрать способ блокировки экрана</string>
     <string name="unlock_backup_info_summary">Выберите альтернативный способ разблокировки экрана.</string>
     <string name="unlock_set_unlock_off_title">Нет</string>
     <string name="unlock_set_unlock_none_title">Защита отключена</string>
@@ -707,7 +707,7 @@
     <string name="bluetooth_dock_settings">Настройки док-станции</string>
     <string name="bluetooth_dock_settings_title">Использовать док-станцию для звука</string>
     <string name="bluetooth_dock_settings_headset">Для громкой связи</string>
-    <string name="bluetooth_dock_settings_a2dp">Для музыки и мультимедиа</string>
+    <string name="bluetooth_dock_settings_a2dp">Для музыки и медиа</string>
     <string name="bluetooth_dock_settings_remember">Запомнить настройки</string>
     <string name="wifi_display_settings_title">Беспроводной дисплей</string>
     <string name="wifi_display_settings_empty_list_wifi_display_off">Для того чтобы увидеть устройства, включите функцию.</string>
@@ -751,7 +751,7 @@
     <string name="wifi_error">Ошибка</string>
     <string name="wifi_in_airplane_mode">В самолете</string>
     <string name="wifi_fail_to_scan">Не удалось начать поиск сетей.</string>
-    <string name="wifi_notify_open_networks">Уведомления о сетях</string>
+    <string name="wifi_notify_open_networks">Уведомлять о сетях</string>
     <string name="wifi_notify_open_networks_summary">Сообщать при обнаружении открытой сети</string>
     <string name="wifi_enable_watchdog_service">Игнорировать сети с плохим сигналом</string>
     <string name="wifi_poor_network_detection">Избегать плохих соединений</string>
@@ -1150,7 +1150,7 @@
     <string name="storage_title_usb">USB подключение к компьютеру</string>
     <string name="usb_connection_category">Подключить как</string>
     <string name="usb_mtp_title">Медиа-устройство (MTP)</string>
-    <string name="usb_mtp_summary">Позволяет передавать файлы мультимедиа в ОС Windows или использовать для этого Android File Transfer в ОС Mac (см. www.android.com/filetransfer)</string>
+    <string name="usb_mtp_summary">Позволяет передавать файлы медиа в ОС Windows или использовать для этого Android File Transfer в ОС Mac (см. www.android.com/filetransfer)</string>
     <string name="usb_ptp_title">Камера (PTP)</string>
     <string name="usb_ptp_summary">Позволяет передавать фотографии с помощью программного обеспечения камеры, а также передавать любые файлы на компьютеры, которые не поддерживают MTP</string>
     <string name="usb_label_installer_cd">Установить инструменты передачи файлов</string>
@@ -1185,7 +1185,7 @@
     <string name="carrier_enabled_summaryOff">APN выкл.</string>
     <string name="bearer">Владелец</string>
     <string name="menu_delete">Удалить APN</string>
-    <string name="menu_new">Новая точка доступа</string>
+    <string name="menu_new">Добавить</string>
     <string name="menu_save">Сохранить</string>
     <string name="menu_cancel">Отменить</string>
     <string name="error_name_empty">Необходимо указать название.</string>
@@ -1245,7 +1245,7 @@
     <string name="usb_tethering_available_subtext">USB связь установлена, установите флажок для подключения</string>
     <string name="usb_tethering_active_subtext">Подключено</string>
     <string name="usb_tethering_storage_active_subtext">Невозможно подключиться во время использовании USB накопителя</string>
-    <string name="usb_tethering_unavailable_subtext">USB не подключен</string>
+    <string name="usb_tethering_unavailable_subtext">USB кабель не подключен</string>
     <string name="usb_tethering_errored_subtext">Ошибка подключения USB</string>
     <string name="bluetooth_tether_checkbox_text">Bluetooth модем</string>
     <string name="bluetooth_tethering_available_subtext">Включен</string>
@@ -1261,7 +1261,7 @@
     <string name="location_network_based">Wi-Fi и мобильные сети</string>
     <string name="location_neighborhood_level">Использовать Wi-Fi и мобильные сети для определения местоположения</string>
     <string name="location_neighborhood_level_wifi">Местоположение определяется с помощью Wi-Fi</string>
-    <string name="location_gps">По спутникам GPS</string>
+    <string name="location_gps">Спутники GPS</string>
     <string name="location_street_level">Разрешить приложениям использовать GPS для определения местоположения</string>
     <string name="assisted_gps">Использовать A-GPS</string>
     <string name="assisted_gps_enabled">Использовать сервер для A-GPS (снимите флажок для менее интенсивного использования сети)</string>
@@ -1329,7 +1329,6 @@
     <string name="skip_button_label">Отмена</string>
     <string name="next_button_label">Далее</string>
     <string name="lock_title">Обеспечение безопасности телефона</string>
-    <string name="lock_intro_message">Чтобы никто, кроме вас, не мог воспользоваться вашим телефоном, создайте графический ключ разблокировки экрана. Для этого соедините в произвольном порядке не менее четырех точек на следующем экране. \n\nЧтобы начать, нажмите \"Далее\".</string>
     <string name="manageapplications_settings_title">Управление приложениями</string>
     <string name="manageapplications_settings_summary">Управление установленными приложениями и их удаление</string>
     <string name="applications_settings">Приложения</string>
@@ -1398,7 +1397,7 @@
     <string name="disabled">Отключено</string>
     <string name="not_installed">Не установлено</string>
     <string name="no_applications">Нет приложений</string>
-    <string name="internal_storage">Память приложений</string>
+    <string name="internal_storage">Внутренняя память</string>
     <string name="sd_card_storage">USB накопитель</string>
     <string name="recompute_size">Повторное вычисление размера…</string>
     <string name="clear_data_dlg_title">Удалить данные приложения?</string>
@@ -1490,7 +1489,7 @@
     <string name="hardkeyboard_category">Настройки внешней клавиатуры</string>
     <string name="auto_punctuate_summary">Нажмите дважды клавишу \"Пробел\" для ввода точки</string>
     <string name="show_password">Показывать пароль</string>
-    <string name="ime_security_warning">Этот метод ввода (%1$s) может сохранять вводимый текст, включая пароли, номера кредитных карт и прочую личную информацию. Использовать этот способ ввода?</string>
+    <string name="ime_security_warning">Этот способ ввода (%1$s) может сохранять вводимый текст, включая пароли, номера кредитных карт и прочую личную информацию. Использовать этот способ ввода?</string>
     <string name="spellchecker_security_warning">Для проверки орфографии будет использоваться приложение %1$s, которое может собирать все вводимые данные, в том числе пароли и номера кредитных карт. Продолжить?</string>
     <string name="spellchecker_quick_settings">Настройки</string>
     <string name="spellchecker_language">Язык</string>
@@ -1545,7 +1544,7 @@
     <string name="input_method_selector_show_automatically_title">Автоматически</string>
     <string name="input_method_selector_always_show_title">Всегда показывать</string>
     <string name="input_method_selector_always_hide_title">Всегда скрывать</string>
-    <string name="configure_input_method">Настройка методов ввода</string>
+    <string name="configure_input_method">Настройка способов ввода</string>
     <string name="input_method_settings">Настройки</string>
     <string name="input_method_settings_button">Настройки</string>
     <string name="active_input_method_subtypes">Активные способы ввода</string>
@@ -1796,7 +1795,7 @@
     <string name="credentials_unlock_hint">Введите пароль для памяти регистрационных данных.</string>
     <string name="credentials_old_password">Текущий пароль:</string>
     <string name="credentials_reset_hint">Удалить весь контент?</string>
-    <string name="credentials_password_too_short">Не менее 8 символов.</string>
+    <string name="credentials_password_too_short">Введите пароль (минимум 8 символов)</string>
     <string name="credentials_wrong_password">Неправильный пароль.</string>
     <string name="credentials_reset_warning">Неверный пароль. У вас осталась одна попытка, после которой хранилище регистрационных данных будет очищено.</string>
     <string name="credentials_reset_warning_plural">Неверный пароль. Осталось попыток: %1$d. Затем хранилище регистрационных данных будет очищено.</string>
@@ -2218,7 +2217,7 @@
     <string name="dndm_vip_list_custom">Исключения</string>
     <string name="dndm_vip_list_contact">Все контакты</string>
     <string name="dndm_vip_list_custom_group">Исключения</string>
-    <string name="dndm_repeated_call_setting_title">Повторные звонки</string>
+    <string name="dndm_repeated_call_setting_title">Повторные вызовы</string>
     <string name="dndm_repeated_call_summary_none">Отключать звук при повторных звонках с одного и того же номера</string>
     <string name="dndm_repeated_call_summary_3min">Если звонящий в течении 3х минут позвонит повторно, звук звонка не будет отключен</string>
     <string name="dndm_twelve_hour_time_format">a h:mm</string>
@@ -2344,7 +2343,7 @@
     <string name="perm_hips_adjust_ringer_volume">Регулировка громкости сигнала вызова</string>
     <string name="perm_hips_security_prompt_caption">Предупреждение безопасности</string>
     <string name="perm_hips_security_prompt_title">%1$s пытается %2$s</string>
-    <string name="perm_hips_security_prompt_remember">Запомнить мой выбор</string>
+    <string name="perm_hips_security_prompt_remember">Запомнить выбор</string>
     <string name="perm_hips_security_prompt_accept">Разрешить (%d)</string>
     <string name="perm_hips_security_prompt_reject">Запретить (%d)</string>
     <string name="perm_hips_security_prompt_accept_root">Разрешить</string>
@@ -2426,7 +2425,7 @@
     <string name="search_unlock_set">Разблокировка</string>
     <string name="search_access_control">Контроль доступа</string>
     <string name="search_gps">GPS</string>
-    <string name="search_status_bar">Статусбар</string>
+    <string name="search_status_bar">Статус бар</string>
     <string name="search_sync">Синхронизация</string>
     <string name="search_battery_indicator">Индикатор батареи</string>
     <string name="search_key">key</string>
@@ -2443,8 +2442,6 @@
     <string name="device_memory">Операт. память</string>
     <string name="device_internal_memory">Внутр. память</string>
     <string name="device_sd_memory">SD карта</string>
-    <string name="device_cpu2_info">"Два ядра "</string>
-    <string name="device_cpu4_info">"Четыре ядра "</string>
     <string name="available_size">%s доступно</string>
     <string name="total_size">%s всего</string>
     <string name="memory_title">Доступно %1$s из %2$s</string>
@@ -2513,7 +2510,7 @@
     <string name="camera_key_action_shortcut_title">Ярлык</string>
     <string name="camera_key_action_toggle_title">Переключатель</string>
     <string name="camera_key_action_app_title">Открыть приложение</string>
-    <string name="camera_key_action_shortcut_home">Домашний экран</string>
+    <string name="camera_key_action_shortcut_home">Рабочий стол</string>
     <string name="camera_key_action_shortcut_screenshot">Скриншот</string>
     <string name="camera_key_action_shortcut_search">Поиск</string>
     <string name="camera_key_action_shortcut_call">Вызов</string>
@@ -2773,7 +2770,7 @@
     <string name="dolby_volume_leveler">Уровень звука</string>
     <string name="dolby_dialogue_enhancer">Улучшение речи</string>
     <string name="dolby_surround_virtualizer">Объемный звук</string>
-    <string name="dirac_mode_off">Dirac выкл.</string>
+    <string name="dirac_mode_off">Dirac выключен</string>
     <string name="dirac_mode_earbuds">Гарнитура</string>
     <string name="dirac_mode_in_ear">Вкладыши Xiaomi</string>
 	<string name="dirac_mode_piston_100">Пистоны Xiaomi</string>
@@ -2916,7 +2913,7 @@ Android File Transfer
     <string name="sim_management_title">SIM менеджер</string>
     <string name="sim_status_title">Статус SIM</string>
     <string name="slot_status_title">Информация об IMEI</string>
-	<string name="xiaomi_cloud_service">MiCloud</string>
+	<string name="xiaomi_cloud_service">Mi Cloud</string>
     <string name="xiaomi_money_service">MiCredit</string>
 	<string name="noise_suppression">Шумоподавление</string>
     <string name="phone_call_noise_suppression">Подавление шумов при разговоре</string>
@@ -3167,17 +3164,17 @@ Android File Transfer
     <string name="gemini_data_connection_progress_message">Подождите…</string>
     <string name="gemini_3g_modem_switching_message">Переключение SIM карты займет около 10 секунд. Подождите…</string>
     <string name="gemini_3g_modem_switch_confirm_message">Сеть 3G будет переключена на эту SIM карту. Продолжить? Убедитесь, что выбранная SIM карта поддерживает сеть 3G.</string>
-    <string name="gemini_3g_disable_warning">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Беспроводные сети > Мобильные сети.</string>
-    <string name="gemini_3g_disable_warning_cu">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Управление SIM.</string>
+    <string name="gemini_3g_disable_warning">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек &gt; Беспроводные сети &gt; Мобильные сети.</string>
+    <string name="gemini_3g_disable_warning_cu">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек &gt; Управление SIM.</string>
     <string name="gemini_wap_push_permission_head">После включения автоматической Push службы, вы можете получать Push сообщения. Обычно авто-Push включают в себя Push уведомления по электронной почте, управление устройствами, о службах, для загрузки услуг и предоставления Push.</string>
     <string name="gemini_wap_push_permission_tail">Принять это соглашение?</string>
     <string name="gemini_wap_push_permission_title">Авто-Push соглашения по техническому обслуживанию</string>
     <string name="gemini_wap_push_permission">Авто-push служба</string>
     <string name="gemini_3g_disable_warning_case0">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
-    <string name="gemini_3g_disable_warning_case1">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Беспроводные сети > Мобильные сети. Выбрать эту SIM карту?</string>
-    <string name="gemini_3g_disable_warning_case2">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Управление SIM. Выбрать эту SIM карту?</string>
-    <string name="gemini_3g_disable_warning_case3">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Кроме того, 3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Беспроводные сети > Мобильные сети. Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
-    <string name="gemini_3g_disable_warning_case4">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Кроме того, 3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек > Управление SIM. Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
+    <string name="gemini_3g_disable_warning_case1">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек &gt; Беспроводные сети &gt; Мобильные сети. Выбрать эту SIM карту?</string>
+    <string name="gemini_3g_disable_warning_case2">3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек &gt; Управление SIM. Выбрать эту SIM карту?</string>
+    <string name="gemini_3g_disable_warning_case3">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Кроме того, 3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек &gt; Беспроводные сети &gt; Мобильные сети. Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
+    <string name="gemini_3g_disable_warning_case4">Необходимо включить передачу данных в роуминге для этой SIM карты, которая может повлечь за собой значительные расходы за услуги связи! Кроме того, 3G сеть недоступна для этой SIM карты. Загрузка данных будет медленнее. Вы можете изменить настройки 3G службы из Настроек &gt; Управление SIM. Включить передачу данных в роуминге и выбрать эту SIM карту?</string>
     <string name="gemini_sim_tether_info_title">Контакты SIM</string>
     <string name="gemini_sim_tether_add_record">Добавить</string>
     <string name="gemini_sim_add_title">Контакты</string>
@@ -3595,7 +3592,7 @@ Android File Transfer
     <string name="power_settings_category_title">Индикатор батареи</string>
     <string name="power_settings_shape">Графический</string>
     <string name="power_settings_number">Процентный</string>
-    <string name="power_settings_top">Полоса в статусбаре</string>
+    <string name="power_settings_top">Полоса в статус баре</string>
 	<string name="perm_su_enable_summary">Приложения с ROOT доступом</string>
 	<string name="perm_mian_name">Разрешения</string>
     <string name="perm_manage_tab_title">Разрешения</string>
@@ -3905,11 +3902,11 @@ Android File Transfer
     <string name="virus_scan_clear">Очистка</string>
     <string name="virus_scan_never_scaned">Необходимо сканирование</string>
     <string name="virus_scan_file_type_virus_installed">Вирус (установленное приложение)</string>
-    <string name="virus_scan_file_type_virus_apk">Вирус (установочный apk)</string>
+    <string name="virus_scan_file_type_virus_apk">Вирус (установочный APK)</string>
     <string name="virus_scan_file_type_risk_installed">Подозрительное приложение (установлено)</string>
-    <string name="virus_scan_file_type_risk_apk">Подозрительное приложение (установочный apk)</string>
+    <string name="virus_scan_file_type_risk_apk">Подозрительное приложение (установочный APK)</string>
     <string name="virus_scan_installed_package">%s (установленное приложение)</string>
-    <string name="virus_scan_uninstalled_package">%s (установочный apk)</string>
+    <string name="virus_scan_uninstalled_package">%s (установочный APK)</string>
     <string name="virus_scan_last_virus">При последней проверке были найдены вирусы.</string>
     <string name="virus_scan_last_risk">Найденные подозрительные приложения при последней проверке не были удалены.</string>
     <string name="virus_scan_settings_title">Настройки антивируса</string>

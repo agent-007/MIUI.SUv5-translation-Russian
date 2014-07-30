@@ -3,7 +3,7 @@
     <string name="app_name">PonPonTile</string>
     <string name="btn_write">Записать</string>
     <string name="select_all">Выбрать все</string>
-    <string name="diselect_all">Снять все</string>
+    <string name="diselect_all">Снять выбор</string>
     <string name="add_configure">Добавить конфигурацию</string>
     <string name="new_configures">Новые конфигурации</string>
     <string name="running">работает</string>
@@ -81,7 +81,7 @@
     <string name="input_new_password">Введите новый пароль, состоящий из 4 цифр</string>
     <string name="error_password">Ошибка пароля</string>
     <string name="help_title">Помощь</string>
-    <string name="err_nfc_off">Включите NFC в Настройки > Беспроводные сети > NFC</string>
+    <string name="err_nfc_off">Включите NFC в Настройки &gt; Беспроводные сети &gt; NFC</string>
     <string name="err_no_nfc">Ваш телефон не поддерживает NFC. Это приложение может не работать.</string>
     <string name="err_tag_not_supported">Ваш телефон не поддерживает привязку ярлыков</string>
     <string name="err_fail_to_read">Ошибка чтения ярлыка</string>
@@ -135,7 +135,7 @@
     <string name="contact_card">Имя карточки</string>
     <string name="contact_name">Имя</string>
     <string name="contact_phone">Телефон</string>
-    <string name="contact_email">E-mail</string>
+    <string name="contact_email">Email</string>
     <string name="contact_address">Адрес</string>
     <string name="contact_company">Компания</string>
     <string name="contact_title">Название</string>
@@ -156,7 +156,7 @@
     <string name="no_available_networks_summary">Попробуйте заново, после подключения к Wi-Fi</string>
     <string name="hint_wifi_password">Введите пароль Wi-Fi</string>
     <string name="input_password_warning">Пароль будет записан на ярлык, не забудьте его!</string>
-    <string name="send_email">Отправить e-mail</string>
+    <string name="send_email">Отправить email</string>
     <string name="email_to">Кому</string>
     <string name="email_subject">Тема</string>
     <string name="email_body">Сообщение</string>

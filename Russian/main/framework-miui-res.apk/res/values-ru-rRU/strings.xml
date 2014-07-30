@@ -4,7 +4,7 @@
 	<string name="activate_fail_notification_title">Повторная активации</string>
 	<string name="activating">Активация…</string>
 	<string name="alwaysUsePrompt">Запомнить выбор</string>
-	<string name="android_lockscreen_glogin_instructions">Для разблокировки войдите в аккаунт Xiaomi</string>
+	<string name="android_lockscreen_glogin_instructions">Для разблокировки войдите в Mi аккаунт</string>
 	<string name="today">Сегодня</string>
 	<string name="tomorrow">Завтра</string>
 	<string name="yesterday">Вчера</string>
@@ -258,17 +258,17 @@
 	<string name="error_unauthorized">Слишком много ошибок авторизации: синхронизация отключена.</string>
 	<string name="every_day">Каждый день</string>
 	<string name="experimental_validate">Идентификация</string>
-	<string name="experimental_validate_fail">Идентификация не удалась.</string>
+	<string name="experimental_validate_fail">Не удалось войти</string>
 	<string name="experimental_validate_password">Пароль</string>
 	<string name="experimental_validate_progress">Идентификация…</string>
 	<string name="experimental_validate_thanks">Спасибо!</string>
 	<string name="experimental_validate_username">Имя пользователя</string>
 	<string name="experimental_validate_warning">Спасибо за то, что помогаете MIUI стать лучше!</string>
 	<string name="find_device_check_sim">Проверка SIM…</string>
-	<string name="find_device_sim_change_instructions">Ваше устройство было заблокировано\nВставьте SIM карту или введите пароль вашего аккаунта Xiaomi</string>
+	<string name="find_device_sim_change_instructions">Ваше устройство было заблокировано.\nВставьте SIM карту или введите пароль вашего Mi аккаунта.</string>
 	<string name="find_device_sim_change_instructions_no_network">Ваше устройство заблокировано.\nДля разблокировки вставьте SIM карту.</string>
 	<string name="find_device_turn_off_flight_mode">Выключите режим \"В самолете\"</string>
-	<string name="find_device_turn_off_flight_mode_instructions">Ваше устройство заблокировано\nДля разблокировки выключите режим \"В самолете\".</string>
+	<string name="find_device_turn_off_flight_mode_instructions">Ваше устройство заблокировано.\nДля разблокировки выключите режим \"В самолете\".</string>
 	<string name="firewall_setting">Черный список</string>
 	<string name="first_back_long_press_message">Долгое нажатие клавиши \"Назад\" остановит процесс приложения.\n\nВключение этой функиции: Настройки &lt; Устройство &lt; Клавиши</string>
 	<string name="fools_day">День дураков</string>
@@ -292,7 +292,7 @@
 	<string name="lantern_festival">Фестиваль фонарей</string>
 	<string name="light_snow">Легкий снег</string>
 	<string name="lockscreen_unlock_sim_via_puk">Введите PUK код для разблокировки SIM карты</string>
-	<string name="memory_clear_nothing_result">Очистка памяти уже произведена</string>
+	<string name="memory_clear_nothing_result">Очистка памяти не требуется</string>
 	<string name="memory_clear_result">Очищено: %1$s\nДоступно: %2$s</string>
 	<string name="miui_copyright_title">Авторские права</string>
 	<string name="miui_mibi_license_title">Пользовательское соглашение MiCredit</string>
@@ -321,19 +321,19 @@
 	<string name="payphone">Телефон-автомат</string>
 	<string name="peace_day">Международный день мира</string>
 	<string name="perm_auto_backup">Автобэкап</string>
-	<string name="perm_payment_dspt">Разрешить приложению оплату через сервисы Xiaomi</string>
-	<string name="perm_payment_lab">Сервис оплаты Xiaomi</string>
-	<string name="perm_send_push_dspt">Позволяет отправлять Xiaomi push-сообщения</string>
-	<string name="perm_send_push_lab">Отправка push-сообщений</string>
-	<string name="perm_tigger_toggle_dspt">Разрешает приложениям управлять переключателями в статусбаре</string>
-	<string name="perm_tigger_toggle_lab">Управление переключателями в статусбаре</string>
+	<string name="perm_payment_dspt">Разрешить приложению оплату через Mi Pay</string>
+	<string name="perm_payment_lab">Mi Pay</string>
+	<string name="perm_send_push_dspt">Разрешить push сообщения от Xaiomi</string>
+	<string name="perm_send_push_lab">Отправка push сообщений</string>
+	<string name="perm_tigger_toggle_dspt">Разрешает приложениям управлять переключателями в статус баре</string>
+	<string name="perm_tigger_toggle_lab">Управление переключателями в статус баре</string>
 	<string name="perm_use_find_device">Поиск устройства</string>
 	<string name="permdesc_accessNote">Вредоносные приложения могут использовать это, чтобы получить доступ к вашей личной информации.</string>
 	<string name="permlab_accessNote">Доступ к заметкам</string>
 	<string name="private_num">Приватный номер</string>
 	<string name="reboot_confirm">Телефон будет перезагружен</string>
 	<string name="reboot_progress">Перезагрузка…</string>
-	<string name="reverse_all">Снять все</string>
+	<string name="reverse_all">Снять выбор</string>
 	<string name="safetylegal_activity_unreachable">Невозможно подключиться к сети. Перейдите по ссылке %s с любого устройства, подключенного к Интернету.</string>
 	<string name="screen_button_notification_text">Для включения клавиш нажмите \"Домой\"+\"Включение\"</string>
 	<string name="screen_button_notification_title">Навигационные клавиши отключены</string>
@@ -386,7 +386,7 @@
 	<string name="volume_alarm">Будильник</string>
 	<string name="volume_icon_description_bluetooth">Bluetooth</string>
 	<string name="volume_icon_description_incall">Вызов</string>
-	<string name="volume_icon_description_media">Мультимедиа</string>
+	<string name="volume_icon_description_media">Медиа</string>
 	<string name="volume_icon_description_notification">Уведомления</string>
 	<string name="volume_icon_description_ringer">Вызов</string>
 	<string name="wake_alarm_message">Следующий звонок будильника: %s</string>
@@ -434,13 +434,13 @@
 	<string name="share">Отправить</string>
 	<string name="perm_data_update_lab">Обновление данных</string>
 	<string name="perm_data_update_dspt">Разрешить отправлять отметку об обновлении данных</string>
-    <string name="provider_sougou">Provided by Sogou</string>
+    <string name="provider_sougou">Предоставлено Sogou</string>
     <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Вы ввели неверный пароль %d раз. После %d неудачных попыток, Вам будет предложено разблокировать телефон через системный аккаунт.
 
  Повторите через %d сек."</string>
     <string name="sim_unavailable">SIM карта недоступна</string>
     <string name="sim_locked">SIM карта заблокирована</string>
-    <string name="sim_not_ready">SIM карта используется. Повторите позже.</string>
+    <string name="sim_not_ready">SIM карта уже используется</string>
     <string name="sim_in_airplane_mode">Выключите режим \"В самолете\"</string>
     <string name="days">%d дн.</string>
     <string name="hours">%d ч.</string>
@@ -448,7 +448,7 @@
     <string name="shutdown_confirm_title">Телефон будет выключен</string>
     <string name="reboot_confirm_title">Телефон будет перезагружен</string>
 	<string name="err_resource_leak">\"%1$s\" было остановлено.</string>
-	<string name="app_notificaiton_on_statusBar_and_notificationBar">Статусбар, панель уведомлений</string>
+	<string name="app_notificaiton_on_statusBar_and_notificationBar">Статус бар, панель уведомлений</string>
     <string name="app_no_notification">Скрыть уведомления</string>
     <string name="app_notificaiton_on_notificationBar">Панель уведомлений</string>
 	<string name="volume_ring_description">Мелодия и уведомления</string>
@@ -472,13 +472,13 @@
 	<string name="sync_data_merge_warning_desc">Объединить локальные %s с облачными данными?</string>
     <string name="sync_data_recover_warning_title">Предупреждение</string>
     <string name="sync_data_recover_warning_desc">Восстановить %s из облачного сервиса?</string>
-    <string name="sync_data_merge_warning_ok">ОК</string>
+    <string name="sync_data_merge_warning_ok">Объединить</string>
     <string name="sync_data_merge_warning_cancel">Отмена</string>
-    <string name="sync_data_recover_warning_ok">ОК</string>
+    <string name="sync_data_recover_warning_ok">Восстановить</string>
     <string name="sync_data_recover_warning_cancel">Отмена</string>
     <string name="sync_data_contact">контакты</string>
     <string name="sync_data_mms">сообщения</string>
-    <string name="sync_data_cloud_album">облачные альбомы</string>
+    <string name="sync_data_cloud_album">облачный альбом</string>
     <string name="sync_data_call_log">записи вызовов</string>
     <string name="sync_data_notes">заметки</string>
     <string name="sync_data_loading">Получение информации с сервера</string>

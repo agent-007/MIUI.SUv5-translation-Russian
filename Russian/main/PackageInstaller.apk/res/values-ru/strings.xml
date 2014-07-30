@@ -64,7 +64,7 @@
     <string name="safe_relative">Личная безопасность</string>
     <string name="privacy_relative">Доступ к личным данным</string>
     <string name="other_relative">Прочие разрешения</string>
-    <string name="perm_notice">Оповещение безопасности</string>
+    <string name="perm_notice">Предупреждение</string>
     <string name="trust_switch_dialog_msg">MIUI не будет спрашивать вашего разрешения на любые действия этого приложения.</string>
     <string name="auto_startup_dialog_msg">MIUI позволит этому приложению запускаться автоматически.</string>
     <string name="low_risk_perms">Мало опасные разрешения</string>
@@ -86,4 +86,27 @@
     <string name="virus_scan_is_risk">Это приложение представляет угрозу для вашего устройства.</string>
     <string name="virus_scan_clear">Удалить</string>
 	<string name="virus_scan_caller_unknown">Неизвестно</string>
+	<string name="ad_block_button_title">Блокировать рекламу</string>
+	<string name="ad_relative">Реклама</string>
+	<string name="adware_count">Файлов рекламы: %d</string>
+	<string name="adware_hint">Эти файлы используются сторонними приложениями для отображения рекламы</string>
+	<string name="adware_title">Реклама</string>
+    <string name="all">Все разрешения</string>
+    <string name="main_title">Установка приложений</string>
+    <string name="installer_name">Источник: %1$s</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_next">Далее</string>
+    <string name="button_continue">Продолжить</string>
+    <string name="button_remove">Удалить</string>
+    <string name="button_continue_install">Продолжить установку</string>
+    <string name="button_install_lastest">Скачать и установить новую версию</string>
+    <string name="button_install_official">Скачать и установить официальную версию</string>
+    <string name="warn_title">Приложение может быть опасно</string>
+    <string name="warn_message">Приложение может представлять вред вашим личным данным, влиять на расходы на мобильный интернет и т.д.</string>
+    <string name="progress_verifying">Проверка безопасности…</string>
+    <string name="update_title">%1$s: новая версия</string>
+    <string name="update_time">%1$s %2$s дата:%3$s версия:%4$s</string>
+    <string name="update_log_default">Нет обновлений</string>
+    <string name="permission_warn_title">Установка приложений из неофициальных источников может причинить вред вашему устройству</string>
+    <string name="permission_warn_hint">Приложения получит разрешения:</string>
 </resources>

@@ -19,7 +19,7 @@
     <string name="dlg_clear_current_ok">ОК</string>
     <string name="dlg_clear_current_sms">Удалить все заблокированные сообщения от этого номера?</string>
     <string name="dlg_delete_keyword">Удалить выбранные ключевые слова?</string>
-    <string name="dlg_edit_keyword">Редактирование ключевого слова</string>
+    <string name="dlg_edit_keyword">Изменение ключевого слова</string>
     <string name="dlg_import_blacklist">Добавление в черный список…</string>
     <string name="dlg_import_whitelist">Добавление в белый список…</string>
 	<string name="dlg_remove_blacklist_ing">Удаление из черного списка…</string>
@@ -61,8 +61,8 @@
     <string name="st_block_title">Блокировать</string>
     <string name="st_call_group">Вызовы</string>
     <string name="st_common_setting_group">Общие</string>
-    <string name="st_filter_keywords_setting_summary1">Сообщения, содержащие ключевые слова, будут заблокированны.</string>
-    <string name="st_filter_keywords_setting_summary2">Вы можете добавить несколько ключевых слов через запятую.</string>
+    <string name="st_filter_keywords_setting_summary1">Сообщения от неизвестных номеров, содержащие ключевые слова, будут заблокированы.</string>
+    <string name="st_filter_keywords_setting_summary2">"\n(Вы можете добавить несколько ключевых слов через запятую)"</string>
 	<string name="st_advanced_setting_group">Дополнительно</string>
 	<string name="st_block_unknown_call">Блокировать неизв. вызовы</string>
 	<string name="st_block_unknown_sms">Блокировать неизв. сообщения</string>
@@ -85,7 +85,7 @@
     <string name="tab_sms">Сообщения</string>
     <string name="tab_title">Черный список</string>
     <string name="toast_keyword_blank">Вы не ввели ключевые слова</string>
-    <string name="toast_keyword_exist">Ключевое слово \"%s\" уже существует</string>
+    <string name="toast_keyword_exist">Ключевое слово уже существует</string>
 	<string name="toast_keyword_invalid">Неверное ключевое слово</string>
 	<string name="menu_add_vip_custom">Добавить исключения</string>
 	<string name="quiet_mode">Не беспокоить</string>
@@ -142,13 +142,13 @@
     <string name="st_antispam_title_anoy_sms">Неизвестные сообщения</string>
     <string name="st_antispam_title_anoy_incoming">Неизвестные вызовы</string>
     <string name="st_antispam_title_null_incoming">Скрытые номера</string>
-    <string name="st_antispam_mode_smart_sum">Блокировать черный список, неизвестные и скрытые номера.</string>
-    <string name="st_antispam_mode_blacklist_sum">Блокировать вызовы и сообщения от контактов из черного списка.</string>
-    <string name="st_antispam_mode_only_contacts_sum">Не блокировать вызовы и сообщения только от номеров из списка контактов.</string>
-    <string name="st_antispam_mode_only_whitelist_sum">Не блокировать вызовы и сообщения только из белого списка.</string>
-    <string name="st_antispam_mode_only_all_deny_sum">Блокировать все вызовы и сообщения.</string>
-    <string name="st_antispam_mode_customize_sum">Пользовательский режим блокировки.</string>
-    <string name="st_antispam_mode_denyownself_sum">Пользовательский режим блокировки.</string>
+    <string name="st_antispam_mode_smart_sum">Блокировать черный список, неизвестные и скрытые номера</string>
+    <string name="st_antispam_mode_blacklist_sum">Блокировать вызовы и сообщения от контактов из черного списка</string>
+    <string name="st_antispam_mode_only_contacts_sum">Не блокировать вызовы и сообщения только от номеров из списка контактов</string>
+    <string name="st_antispam_mode_only_whitelist_sum">Не блокировать вызовы и сообщения только из белого списка</string>
+    <string name="st_antispam_mode_only_all_deny_sum">Блокировать все вызовы и сообщения</string>
+    <string name="st_antispam_mode_customize_sum">Пользовательский режим блокировки</string>
+    <string name="st_antispam_mode_denyownself_sum">Пользовательский режим блокировки</string>
     <string name="st_antispam_notification_sum">Показывать уведомления о блокировке в строке состояния</string>
     <string name="st_antispam_des_anti">Блокировать</string>
     <string name="st_antispam_des_smart_anti">Умная блокировка</string>
@@ -268,7 +268,7 @@
     <string name="ad_install_monitor">Монитор установки</string>
     <string name="ad_install_monitor_hint">Проверять наличие рекламы при установке приложения</string>
     <string name="ad_update_setting">Настройки обновления</string>
-    <string name="ad_update_title">Автоматическое обновление</string>
+    <string name="ad_update_title">Автообновление</string>
     <string name="ad_update_time">Обновление: %s</string>
     <string name="ad_update_time_unKnown">Обновление: неизвестно</string>
 	<string name="NACaddnumcontent">Введите номер телефона</string>
@@ -278,4 +278,7 @@
 	<string name="sms_delete_hint">Удалить все заблокированные сообщения от этого номера?</string>
     <string name="call_delete_hint">Удалить все заблокированные вызовы от этого номера?</string>
     <string name="backsound_set_hint">Установить сигнал блокировки на \"%s\"?</string>
+	<string name="ad_block_hint">Заблокировано: %d</string>
+	<string name="ad_permission_hint">Использование блокировщика рекламы может повлиять на производительность приложений и ухудшить их работу.</string>
+	<string name="ad_single_block_hint">Заблокировано</string>
 </resources>
